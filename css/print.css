@@ -1,0 +1,8 @@
+/* print.css 
+<link rel="stylesheet" href="print.css" type="text/css" media="print" />
+*/
+#header, #nav, #footer, #banner, img {display: none;}
+body {background: white;font-size: 12pt;}
+#wrapper, #content {width: auto;margin: 0 5%;padding: 0;border: 0;float: none !important;color: black;background: transparent none;}
+#content {width: 100%; margin: 0; float: none;font-size:1em;}
+a, a:link, a:visited, a:active {color: #781351;font-size:1em;text-decoration:none; background: transparent;}
