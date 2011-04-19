@@ -1,0 +1,22 @@
+.splash #middle h1 {font-weight:bold;font-size:1.25em;line-height:1.5em;margin:0;}
+.splash #middle h2 {font-weight:normal;font-size:1.125em;margin:0;padding:0;line-height:1.5em;}
+.splash #middle h6 {font-weight:bold;font-size:1.1em;color:#424242;margin:1em 10% 1em 0;border-bottom:thin solid #424242;}
+.splash #middle {background: url(../images/fade-bg.gif) repeat-x;}
+.splash #middle ul {list-style-type:none;padding:0;margin:0 0 1.5em 0;}
+.splash #middle dl {padding:0;margin:0;}
+.splash #middle h1 a {font-weight:bold;font-size:inherit;line-height:inherit;margin:0;color:#FFFFFF}
+.splash #middle h1 a:link {font-weight:bold;font-size:inherit;line-height:inherit;margin:0;color:#FFFFFF}
+.splash #middle h1 a:visited {font-weight:bold;font-size:inherit;line-height:inherit;margin:0;color:#FFFFFF}
+.splash #middle h1 a:hover {font-weight:bold;font-size:inherit;line-height:inherit;margin:0;color:#FFFFFF}
+.splash #middle h1 a:active {font-weight:bold;font-size:inherit;line-height:inherit;margin:0;color:#FFFFFF} 
+/*.splash #middle dt {background:url(../images/snowflake.png)no-repeat;background-position:0 5%;padding:0;margin:0}*/
+/*.splash #middle dd {padding:0;margin:0;}*/
+/*.splash #middle li {background:url(../images/snowflake.png) no-repeat;background-position:0 5%;padding:0 5%;} */
+.splash #middle li {background:url(../images/bullet2.gif) no-repeat;background-position:0 5%;padding:0 7%;margin:0;} 
+.splash #middle a {text-decoration:none;color:#424242;display:inline;font-size:1em;line-height:1.125em;} 
+.splash #middle .heading {font-weight:bold;font-size:1.1em;text-decoration:none;padding:.2em 0 .4em 0;color:#424242;display:block;line-height:1.25em;} 
+.splash #middle a:hover {color: #905F00;}
+.splash #info ul {font-size:.75em;clear:both;margin-left:35px;padding:0;}
+.splash #info li {background:none;}
+.splash #info a {display:inline;}
+

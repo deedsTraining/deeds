@@ -1,0 +1,7 @@
+/*  styles the "mini-nav" in the header and footer */
+ul.mininav {position: absolute;}
+ul.mininav li {display: inline; margin: 0; padding: 0;}
+ul.mininav a {color: #fff; text-decoration: none;}
+ul.mininav a:hover {text-decoration: underline;}
+ul.mininav li {border-left: 1px solid #fff; padding-left: 5px;}
+ul.mininav li.first {border-left: 0;}
