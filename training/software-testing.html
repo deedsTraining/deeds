@@ -1,35 +1,88 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title>
-DEEDS Project | Software Testing
-</title>
-<meta charset="utf-8">
-<link rel="shortcut icon" href="../images/favicon.ico" />
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>DEEDS Project | Training</title>
+<base href="http://www.utoronto.ca/deeds/" />
+<meta name="copyright" content="The DEEDS Project" />
+<meta name="email" content="deeds.training@gmail.com" />
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link href="css/reset.css" rel="stylesheet" type="text/css"/>
+<link href="css/training.css" rel="stylesheet" type="text/css"/>
+<link href="css/handheld.css" rel="stylesheet" type="text/css" media="handheld" />
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
 <style type="text/css">
-*{margin:0;padding:0;}
-html{overflow:hidden;}
-#wufoo{position:absolute;width:100%;height:100%;}
-body{margin-bottom:-17px;}
-iframe{height:100%;width:100%;border:none;}
-#noscript {color:#f00;font-weight:bolder;text-align:center;background-color:#eeeeee}
-#fail {color:#f00;text-align:center;background-color:#eeeeee}
+#form1 {padding:20px}
+#fail {color:#333333;}
+#access {padding-left:20px}
 </style>
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 </head>
 <body id="software-testing">
-<p id="fail">If for any reason you cannot use this form, send us an email at <a href="mailto:deeds.training@gmail.com?subject=Coming%20soon">deeds.training@gmail.com</a></p>
-<noscript>
-<p id="noscript">   
-You will not be able to use this form because JavaScript is disabled
-</p>
-</noscript>
-<div id="wufoo">
-<iframe title="Software Testing" frameborder="0" src="http://33784311.wufoo.com/forms/s7x3a7/">
-<a href="http://33784311.wufoo.com/forms/s7x3a7/" title="HTML form">Fill out my Wufoo form!</a>
-</iframe>
+<div class="wrapper">
+<div id="header">
+<h1><a href="." accesskey="1" title="The DEEDS Project">The DEEDS Project</a></h1>
+<h3><a href="http://www.utoronto.ca/">University of Toronto</a></h3>
+<ul class="mininav">
+<li><a href="http://res.deeds.utoronto.ca:49838/research/" title="DEEDS Research">Research</a></li>
+<li><a href="http://128.100.218.174:8080/ethiopia/" title="Ethiopia">Ethiopia</a></li>
+<li><a href="http://www.utoronto.ca/cias/" title="Central and Inner Asia Studies">CIAS</a></li>
+<li><a href="http://scriptor.deeds.utoronto.ca:7777/d_mech/" title="Dater of Medieval English Charters">D+MECH</a></li>
+<li><a href="training/" title="Training Courses">Training</a></li>
+</ul>
 </div>
+<div id="middle">
+<div id="content">  
+<a href="#access" accesskey="2"></a> 
+<h1 id="access">Registration Form</h1>
+<div id="form1">
+<script type="text/javascript">var host = (("https:" == document.location.protocol) ? "https://secure." : "http://");document.write(unescape("%3Cscript src='" + host + "wufoo.com/scripts/embed/form.js' type='text/javascript'%3E%3C/script%3E"));</script>
+<script type="text/javascript">
+var m7x3p9 = new WufooForm();
+m7x3p9.initialize({
+'userName':'33784311', 
+'formHash':'s7x3a7', 
+'autoResize':true,
+'defaultValues':'field114='+ encodeURI(document.referrer) + "",
+'height':'1119'});
+m7x3p9.display();
+</script>
+<p id="fail">If for any reason you cannot use this form, send us an email at <a href="mailto:deeds.training@gmail.com?subject=Coming%20soon">deeds.training@gmail.com</a>, and we will let you know the launch dates of our new courses.</p>
+</div>
+</div>
+</div>
+<div id="linkbox">
+<h6>Courses:</h6>
+<div id="linkbox-col1">
+<ul>
+<li><a href="training/java/#xml1"> Introduction to XML</a></li>
+<li><a href="training/java/#database1">Introduction to Database and SQL (MySQL)</a></li>
+<li><a href="training/java/#database2"> Intermediate Database and SQL</a></li>
+<li><a href="training/java/#java1"> Introduction to Java&trade;</a></li>
+<li><a href="training/java/#java2"> Intermediate Java&trade; (Object Oriented Programming)</a></li>
+<li><a href="training/java/#java3"> Advanced Java&trade; (Programming with the Java Library) </a></li></ul>
+</div>
+<div id="linkbox-col2">
+<ul>
+<li><a href="training/java/#java4"> Java JDBC&trade; and Database Programming </a></li>
+<li><a href="training/java/#java5"> Introduction to Java&trade; EE (JavaServer Pages and Servlets) + HTML </a>
+<li><a href="training/java/#javascript1"> Programming with JavaScript</a></li>
+<li><a href="training/java/#ajax"> Programming XML with JavaScript (DOM and AJAX) </a></li>
+<li><a href="training/java/">Internet Application Development with Java&trade; EE, MySQL, and AJAX</a></li>
+<li><a href="training/software-testing/">Software Testing</a></li>
+</ul>
+</div>
+</div>
+<div id="footer">&nbsp;
+Copyright &copy; <a href="." title="The DEEDS Project">The DEEDS Project</a>
+<ul class="mininav">
+<li class="first"><a href="testimonials.html" title="Testimonials">Testimonials</a></li>
+<li><a href="access.html" accesskey="0" title="Accessibility">Accessibility</a></li>
+</ul> 
+</div>
+</div>
+<noscript>
+  <p id="noscript">You will not be able to use this form because JavaScript is disabled.</p>
+</noscript>
 </body>
 </html>

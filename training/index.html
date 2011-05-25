@@ -1,25 +1,28 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="google-site-verification" content="yhu8k5f5-ldeuVPXPLK8QPqkteVX8uKPKNi3W1fd9Fo" />
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>DEEDS Project | Training Courses</title>
-<meta name="description" content="Instructor led training of Java, MySQL, XML, JDBC, JavaServer Pages, JavaScript, and AJAX" />
 <meta name="copyright" content="The DEEDS Project" />
 <meta name="email" content="deeds.training@gmail.com" />
+<link rel="alternate" type="application/rss+xml" title="Announcements" href="training/announcements.xml" />
 <base href="http://www.utoronto.ca/deeds/" />
-<link rel="shortcut icon" href="../images/favicon.ico" />
+<link rel="shortcut icon" href="images/favicon.ico" />
 <link href="css/reset.css" rel="stylesheet" type="text/css"/>
 <link href="css/training.css" rel="stylesheet" type="text/css"/>
 <link href="css/handheld.css" rel="stylesheet" type="text/css" media="handheld" />
 <link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+<link href="css/buttons.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
-.none img {padding:20px}
 .column1 a:link {color:#000}
 .column1 a:visited {color:#000}
 .column1 a:hover {color:#608080}
 .column1 a:active {color:#608080}
 .column1 a:focus {color:#608080}
+#button1 { width: 40% } 
+a.multi-line-button .title { font-size: 18px }
+a.multi-line-button .subtitle { font-size: 12px }
 </style>
 </head>
 <body id="training">
@@ -31,98 +34,95 @@
 <li><a href="http://res.deeds.utoronto.ca:49838/research/" title="DEEDS Research">Research</a></li>
 <li><a href="http://128.100.218.174:8080/ethiopia/" title="Ethiopia">Ethiopia</a></li>
 <li><a href="http://www.utoronto.ca/cias/" title="Central and Inner Asia Studies">CIAS</a></li>
-<li><a href="http://scriptor.deeds.utoronto.ca:7777/d_mech" title="Dater of Medieval English Charters">D+MECH</a></li>
+<li><a href="http://scriptor.deeds.utoronto.ca:7777/d_mech/" title="Dater of Medieval English Charters">D+MECH</a></li>
 </ul>
 </div>
 <div id="middle">
 <div id="content">  
-<a href="#access" accesskey="2"></a> 
-<h1 id="access">Training Courses</h1>
-<h2>Java&trade;, MySQL, XML, JDBC&trade;, JavaServer Pages, JavaScript, AJAX</h2>
+<a href="training/#access" accesskey="2"></a> 
 <div class="multi-column-list">
 <div class="size1of2 column1">    
 <ul>
-<li><a href="http://maps.google.ca/maps?f=q&source=embed&hl=en&geocode=&q=The+DEEDS+Project,+Toronto,+Ontario&sll=49.891235,-97.15369&sspn=33.029007,70.488281&ie=UTF8&hq=The+DEEDS+Project,&hnear=Toronto,+Toronto+Division,+Ontario&ll=43.667127,-79.399567&spn=0.043461,0.072956&z=13&iwloc=A">Our courses are held at the University of Toronto, St. George campus (downtown Toronto).</a></li>
-<li><a href="training/testimonials.htm" title="Student Testimonials">See what previous students had to say about our courses.</a></li>
-<li><a href="#payment">Flexible payment options.</a></li> 
-<li><a href="#funding">Funding resources.</a></li>
-</ul></div>
+<li id="access"><a href="http://maps.google.ca/maps?f=q&source=embed&hl=en&geocode=&q=The+DEEDS+Project,+Toronto,+Ontario&sll=49.891235,-97.15369&sspn=33.029007,70.488281&ie=UTF8&hq=The+DEEDS+Project,&hnear=Toronto,+Toronto+Division,+Ontario&ll=43.667127,-79.399567&spn=0.043461,0.072956&z=13&iwloc=A" title="location">Our courses are held at the University of Toronto, St. George campus (downtown Toronto)</a></li>
+<li><a href="testimonials.html" title="Student Testimonials">See what previous students had to say about our courses</a></li>
+<li><a href="training/#upcoming" title="Courses available now">Courses available now</a></li> 
+<li><a href="training/#planned" title="Future courses">Courses planned for the future</a></li>
+</ul>
+</div>
 <div class="size1of2 column2">
 <ul class="none">
-<li><a id="contact" href="training/contact-form.htm" title="Contact us"><img src="images/contact.png" alt="Contact us" /></a></li>
+<li><a id="contact" href="training/contact-form.html" title="Contact us">
+<!--<img src="images/contact.png" alt="Contact us" />-->
+<a id="button1" class='multi-line-button blue' href="training/contact-form.html">
+<span class='title'>Contact Us</span>
+<span class='subtitle'>to learn more</span>
+</a>
+</li>
 </ul>
-</div></div> <div class="clear"></div>
-<h3>Courses:</h3>
-<table id="courses" title="Available Courses" summary="Available Courses">
+</div>
+</div> 
+<div class="clear"></div>
+<h2 id="courses">Training Courses</h2>
+<h3 id="upcoming">Courses available now:</h3>
+<table id="available" title="Available Courses" summary="Available Courses">
 <tr><th> Course Name </th><th> Duration </th><th> Start Date </th><th class="currency"> Fee </th></tr>
-<tr><td><a href="training/java/">Internet Application Development with Java&trade; EE, MySQL, and AJAX</a></td><td> 12 weeks </td><td> July 3, 2011 </td><td class="currency"> 7,200 </td></tr>
+<tr><td><a href="training/java/">Internet Application Development with Java&trade; EE, MySQL, and AJAX</a></td><td> 12 weeks </td><td> July 4, 2011 </td><td class="currency"> 7,200 </td></tr>
 <tr><td class="first" colspan="4"> Any of the following modules of this course can be taken individually or in combination: </td></tr>
 <tr><td><a href="training/java/#xml1">Introduction to XML</a> </td><td> 5 days </td><td> July 4, 2011</td><td class="currency"> 660 </td></tr>
 <tr><td><a href="training/java/#database1">Introduction to Database and SQL (MySQL)</a> </td><td> 5 days </td><td> July 11, 2011 </td><td class="currency"> 660 </td></tr>
 <tr><td><a href="training/java/#database2">Intermediate Database and SQL</a> </td><td> 5 days </td><td> July 18, 2011 </td><td class="currency"> 660 </td></tr>
 <tr><td><a href="training/java/#java1">Introduction to Java&trade;</a> </td><td> 5 days </td><td> July 25, 2011 </td><td class="currency"> 660 </td></tr>
-<tr><td><a href="training/java/#java2"> Intermediate Java&trade; (Object Oriented Programming) </a></td><td> August 2, 2011 </td><td>TBA</td><td class="currency"> 660 </td></tr>
+<tr><td><a href="training/java/#java2"> Intermediate Java&trade; (Object Oriented Programming) </a></td><td> 5 days </td><td> August 2, 2011 </td><td class="currency"> 660 </td></tr>
 <tr><td><a href="training/java/#java3">Advanced Java&trade; (Programming with the Java Library)</a></td><td> 5 days </td><td> August 9, 2011 </td><td class="currency"> 660 </td></tr>
 <tr><td><a href="training/java/#java4">Java JDBC&trade; and Database Programming</a></td><td> 5 days </td><td> August 16, 2011 </td><td class="currency"> 660 </td></tr>
 <tr><td><a href="training/java/#java5"> Introduction to Java&trade; EE (JavaServer Pages and Servlets) + HTML </a></td><td> 15 days </td><td> August 23, 2011 </td><td class="currency"> 1,980 </td></tr>
 <tr><td><a href="training/java/#javascript1">Programming with JavaScript</a></td><td> 5 days </td><td> September 14, 2011</td><td class="currency"> 660 </td></tr>
 <tr><td><a href="training/java/#ajax1">Programming XML with JavaScript (DOM and AJAX)</a></td><td> 5 days </td><td> September 21, 2011 </td><td class="currency"> 660 </td></tr>
 </table>
-<table id="pcourses" title="Planned Courses" summary="Planned Courses">
+<h3 id="planned">Planned future courses:</h3>
+<table id="future" title="Planned Courses" summary="Planned Courses">
 <tr><th> Course Name </th><th> Duration </th><th> Start Date </th><th class="currency"> Fee </th></tr>
-<tr><td><a href="training/software-testing/">Software Testing</a></td><td> 6 weeks </td><td> TBA </td><td class="currency"> TBA </td></tr>
+<tr><td><a href="training/software-testing/">Software Testing</a></td><td> TBA </td><td> TBA </td><td class="currency"> TBA </td></tr>
 </table>
 <p>Course start dates, course duration, and course fees are subject to change.</p> 
 <p>There are no lectures or computer labs on legal holidays or when the Robarts Library at the University of Toronto is closed.</p> 
-<h3 id="payment">Payment Options</h3>
-<p>Fee payment can be made using Visa, Master Card, cheque or money order. Cheques and money orders are payable to the University of Toronto.</p>
-<p>Fees are due on the first day of a course.</p>
-<p>A 5% reduction will be made for fees paid in advance, that is before the first day of a course.</p>
-<p>A 5% premium will be charged for fees billed to a third party.</p>
-<p>Fees for 12 week courses can be made in three equal monthly installments due on the first day, on the first day of the fifth week and on the first day of the ninth week of the course.</p>
-<p>Fees cover all materials and resources for the course. There are no additional charges.</p>
-<p>To withdraw from a course with a full refund, you must withdraw by the end of first day of a course, unless you are enrolled in a twelve week course. To withdraw from a twelve week course with a full refund, you must withdraw by the end of the fifth day of the course. Later withdrawals will be assessed on a pro-rated basis.</p>
-<p>Fees paid are tax deductible, a Tuition and Education Amounts Certificate will be issued after successful completion of a course. </p>
-<h3 id="funding">Funding Resources</h3>
-<p>Employment Insurance recipients should contact an <a href="http://www.edu.gov.on.ca/eng/tcu/etlanding.html" title="Employment Ontario">Employment Ontario</a> counsellor regarding possible funding, before applying to any of our courses.</p>
-<p><a href="https://osap.gov.on.ca/OSAPPortal/en/Home/index.htm" title="OSAP">OSAP</a> assistance may be available to those who qualify. This assistance is only available for 12 week courses. Please see the <a href="https://osap.gov.on.ca/OSAPPortal/en/Home/index.htm" title="OSAP">OSAP</a> web site for more details. Apply to <a href="https://osap.gov.on.ca/OSAPPortal/en/Home/index.htm" title="OSAP">OSAP</a>, early, as applications can take 6-8 weeks to process. When completing the <a href="https://osap.gov.on.ca/OSAPPortal/en/Home/index.htm" title="OSAP">OSAP</a> application, the name of this course is DEEDS Project, the course load is 100% (full-time), and the course duration is 12 weeks. If for any reason you do not take the course you can cancel your <a href="https://osap.gov.on.ca/OSAPPortal/en/Home/index.htm" title="OSAP">OSAP</a> application without penalty. Please be aware that you will not receive ANY money from <a href="https://osap.gov.on.ca/OSAPPortal/en/Home/index.htm" title="OSAP">OSAP</a> before the course actually starts.</p>
-<p>As a result of recent changes to legislation, recent immigrants who have lived in Ontario for less than twelve months may be eligible for an OSAP loan. The twelve month residency rule for immigrants may be waived on appeal of the original decision. That is you must apply for an OSAP loan. If your application is denied you can then appeal this decision.</p>
-<p>This course qualifies under the Lifelong Learning Plan. The Lifelong Learning Plan is a Government of Canada initiative which allows qualifying students access to their RRSP funds for the payment of course fees. For more information see your 1999 or later income tax return guide or check with <a href="http://www.cra-arc.gc.ca/tx/ndvdls/tpcs/rrsp-reer/llp-reep/menu-eng.html" title="Canada Customs and Revenue">Canada Customs and Revenue</a>.</p>
 </div>
 </div>
 <div id="linkbox">
 <h6>Courses:</h6>
 <div id="linkbox-col1">
 <ul>
-<li><a href="training/courses/#xml1"> Introduction to XML</a></li>
-<li><a href="training/courses/#database1">Introduction to Database and SQL (MySQL)</a></li>
-<li><a href="training/courses/#database2"> Intermediate Database and SQL</a></li>
-<li><a href="training/courses/#java1"> Introduction to Java&trade;</a></li>
-<li><a href="training/courses/#java2"> Intermediate Java&trade; (Object Oriented Programming)</a></li>
-<li><a href="training/courses/#java3"> Advanced Java&trade; (Programming with the Java Library) </a></li></ul>
+<li><a href="training/java/#xml1"> Introduction to XML</a></li>
+<li><a href="training/java/#database1">Introduction to Database and SQL (MySQL)</a></li>
+<li><a href="training/java/#database2"> Intermediate Database and SQL</a></li>
+<li><a href="training/java/#java1"> Introduction to Java&trade;</a></li>
+<li><a href="training/java/#java2"> Intermediate Java&trade; (Object Oriented Programming)</a></li>
+<li><a href="training/java/#java3"> Advanced Java&trade; (Programming with the Java Library) </a></li></ul>
 </div>
 <div id="linkbox-col2">
 <ul>
-<li><a href="training/courses/#java4"> Java JDBC&trade; and Database Programming </a></li>
-<li><a href="training/courses/#java5"> Introduction to Java&trade; EE (JavaServer Pages and Servlets) + HTML </a>
-<li><a href="training/courses/#javascript1"> Programming with JavaScript</a></li>
-<li><a href="training/courses/#ajax"> Programming XML with JavaScript (DOM and AJAX) </a></li>
-<li><a href="training/courses/">Internet Application Development with Java&trade; EE, MySQL, and AJAX</a></li>
-<li><a href="training/application-form.htm" title="Apply Now!">Apply Now!</a></li>
+<li><a href="training/java/#java4"> Java JDBC&trade; and Database Programming </a></li>
+<li><a href="training/java/#java5"> Introduction to Java&trade; EE (JavaServer Pages and Servlets) + HTML </a>
+<li><a href="training/java/#javascript1"> Programming with JavaScript</a></li>
+<li><a href="training/java/#ajax"> Programming XML with JavaScript (DOM and AJAX) </a></li>
+<li><a href="training/java/">Internet Application Development with Java&trade; EE, MySQL, and AJAX</a></li>
+<li><a href="training/software-testing/" title="Software Testing">Software Testing</a></li>
 </ul>
 </div>
 </div>
 <div id="footer">&nbsp;
-Copyright &copy; <a href="http://www.utoronto.ca/deeds/" title="The DEEDS Project">The DEEDS Project</a>
+Copyright &copy; <a href="." title="The DEEDS Project">The DEEDS Project</a>
 <ul class="mininav">
-<li class="first"><a href="training/contact-form.htm" title="Contact us">Contact us</a></li>
-<li><a href="training/testimonials.htm" title="Testimonials">Testimonials</a></li>
-<li><a href="training/access.htm" accesskey="0" title="Accessibility">Accessibility</a></li>
+<li class="first"><a href="training/contact-form.html" title="Contact us">Contact us</a></li>
+<li><a href="testimonials.html" title="Testimonials">Testimonials</a></li>
+<li><a href="access.html" accesskey="0" title="Accessibility">Accessibility</a></li>
 </ul> 
 </div>
 </div>
-<noscript id="noscript">   
-You will not get the full functionality of this page because JavaScript is disabled. Visit <a href="noscript
+<noscript>
+<p id="noscript">
+You will not get the full functionality of this page because JavaScript is
+disabled.</p>
 </noscript>
 <script type="text/javascript">
  var _gaq = _gaq || [];
