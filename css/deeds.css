@@ -17,6 +17,13 @@ div.clear{clear:both;height:0;}
 #header ul.mininav li {border: none; display: block; float: left;}
 #header ul a {display: block; padding: 0 5px 23px 5px; text-decoration: none; height: auto;}
 #header ul a:hover {background: url(../images/selector_up.png) 50% 100% no-repeat; color:#5bb9d6;}
+/*  styles the "mini-nav" in the header and footer */
+ul.mininav {position: absolute;}
+ul.mininav li {display: inline; margin: 0; padding: 0;}
+ul.mininav a {color: #fff; text-decoration: none;}
+ul.mininav a:hover {text-decoration: underline;}
+ul.mininav li {border-left: 1px solid #fff; padding-left: 5px;}
+ul.mininav li.first {border-left: 0;}
 #middle {width: 759px;margin:0 0 0 29px;background: url(../images/split_fade.jpg) repeat-x; float:left; padding-bottom:1em;border:none;}
 #middle h1,h2,h3,h4,h5,h6 {font-weight:bold;}
 #middle h1 {font-size:1.25em;line-height:1.5em;margin:0;color:#FFFFFF}
