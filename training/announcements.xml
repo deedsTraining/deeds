@@ -3,8 +3,8 @@
 <channel>
 <title>DEEDS Project | Training Courses</title>
 <link>http://www.utoronto.ca/deeds/training/</link>
-<description></description>
-<lastBuildDate>Tue, 19 Apr 2011 14:00:00 GMT</lastBuildDate>
+<description>Hands-on training courses</description>
+<lastBuildDate>Fri, 10 Jun 2011 12:00:00 GMT</lastBuildDate>
 <language>en-us</language>
 <copyright>Copyright 2011, The DEEDS Project</copyright>
 <managingEditor>deeds.training@gmail.com (deedsTraining)</managingEditor>
@@ -20,6 +20,27 @@
 	<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/java/</guid>
 	<pubDate>Tue, 19 Apr 2011 14:00:00 GMT</pubDate>
 	<description><![CDATA[The DEEDS Project will be starting a new course in July 2011.]]></description>
+</item>
+<item>
+<title>New starting date for Internet Application Development with Java EE, MySQL and AJAX</title>
+<link>http://www.utoronto.ca/deeds/training/java/</link>
+<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/java/</guid>
+<pubDate>Fri, 10 Jun 2011 12:00:00 GMT</pubDate>
+<description><![CDATA[The starting date for this course is now July 18, 2011.]]></description>
+</item>
+<item>
+<title>Software Testing</title>
+<link>http://www.utoronto.ca/deeds/training/software-testing/</link>
+<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/software-testing/</guid>
+<pubDate>Fri, 10 Jun 2011 12:00:00 GMT</pubDate>
+<description><![CDATA[We are planning to start a Software Testing course in the near future.]]></description>
+</item>
+<item>
+<title>Internet Application Development with PHP, MySQL and AJAX</title>
+<link>http://www.utoronto.ca/deeds/training/php/</link>
+<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/php/</guid>
+<pubDate>Fri, 10 Jun 2011 12:00:00 GMT</pubDate>
+<description><![CDATA[We are planning to start a hands-on training course in PHP, MySQL and AJAX very soon.]]></description>
 </item>
 </channel>
 </rss>

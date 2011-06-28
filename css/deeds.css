@@ -4,7 +4,6 @@ a:hover {color:#905F00;}
 p {margin-bottom:1em;}
 div.clear{clear:both;height:0;}
 .wrapper {width:817px;position:relative;margin:0 auto;background:url(../images/shadow-sides.png) repeat-y;border:none;}
-/* .wrapper {width:817px;position:relative;margin:0 auto;background:url(../images/shadow-sides.png) repeat-y;} */
 #header {width:759px;height:74px;background: url(../images/header.gif) no-repeat;position:relative;margin:0 0 0 29px;}
 #banner {width:759px;margin:9px 0 5px 29px;}
 #header h3, #header h1 {position: absolute;}
@@ -43,9 +42,6 @@ ul.mininav li.first {border-left: 0;}
 .splash #middle h1 a:visited {font-weight:bold;font-size:inherit;line-height:inherit;margin:0;color:#FFFFFF}
 .splash #middle h1 a:hover {font-weight:bold;font-size:inherit;line-height:inherit;margin:0;color:#FFFFFF}
 .splash #middle h1 a:active {font-weight:bold;font-size:inherit;line-height:inherit;margin:0;color:#FFFFFF} 
-/*.splash #middle dt {background:url(../images/snowflake.png)no-repeat;background-position:0 5%;padding:0;margin:0}*/
-/*.splash #middle dd {padding:0;margin:0;}*/
-/*.splash #middle li {background:url(../images/snowflake.png) no-repeat;background-position:0 5%;padding:0 5%;} */
 .splash #middle li {background:url(../images/bullet2.gif) no-repeat;background-position:0 5%;padding:0 7%;margin:0;} 
 .splash #middle a {text-decoration:none;color:#424242;display:inline;font-size:1em;line-height:1.125em;} 
 .splash #middle .heading {font-weight:bold;font-size:1.1em;text-decoration:none;padding:.2em 0 .4em 0;color:#424242;display:block;line-height:1.25em;} 
