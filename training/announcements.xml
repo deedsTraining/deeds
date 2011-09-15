@@ -5,43 +5,78 @@
 <title>DEEDS Project | Training Courses</title>
 <link>http://www.utoronto.ca/deeds/training/</link>
 <description>Hands-on training courses</description>
-<lastBuildDate>Fri, 10 Jun 2011 12:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 9 Sep 2011 12:00:00 GMT</lastBuildDate>
 <language>en-us</language>
 <copyright>Copyright 2011, The DEEDS Project</copyright>
 <managingEditor>deeds.training@gmail.com (deedsTraining)</managingEditor>
 <image>
-  <url>http://www.utoronto.ca/deeds/images/header.png</url>
-	<title>DEEDS Project | Training Courses</title>
-  <link>http://www.utoronto.ca/deeds/training/</link>
+<title>DEEDS Project | Training Courses</title>
+<url>http://www.utoronto.ca/deeds/images/header.png</url>
+<link>http://www.utoronto.ca/deeds/training/</link>
 </image>
 <atom:link href="http://www.utoronto.ca/deeds/training/announcements.xml" rel="self" type="application/rss+xml" />
 <item>
-	<title>New course starting July 4, 2011</title>
-  <link>http://www.utoronto.ca/deeds/training/java/</link>
-	<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/java/</guid>
-	<pubDate>Tue, 19 Apr 2011 14:00:00 GMT</pubDate>
-	<description><![CDATA[The DEEDS Project will be starting a new course in July 2011.]]></description>
+<title>Advanced Programming for the Android Platform Using Java</title>
+<link>http://www.utoronto.ca/deeds/training/android/#access</link>
+<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/android/?e=1</guid>
+<pubDate>Fri, 9 Sep 2011 12:00:00 GMT</pubDate>
+<description><![CDATA[We are planning a new training course Advanced Programming for the Android Platform Using Java. This will be an evening or weekend course.]]></description>
 </item>
 <item>
-<title>New starting date for Internet Application Development with Java EE, MySQL and AJAX</title>
-<link>http://www.utoronto.ca/deeds/training/java/</link>
-<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/java/</guid>
-<pubDate>Fri, 10 Jun 2011 12:00:00 GMT</pubDate>
-<description><![CDATA[The starting date for this course is now July 18, 2011.]]></description>
+<title>Mobile Development using Android and Java</title>
+<link>http://www.utoronto.ca/deeds/training/mobile/#access</link>
+<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/mobile/?e=1</guid>
+<pubDate>Fri, 9 Sep 2011 12:00:00 GMT</pubDate>
+<description><![CDATA[We are starting a new training course Mobile Development using Android and Java on October 31, 2011. This will be a 12 week full-time course.]]></description>
+</item>
+<item>
+<title>Evenings only Software Testing (Software QA) Course</title>
+<link>http://www.utoronto.ca/deeds/training/php/#access</link>
+<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/software-testing/?e=4</guid>
+<pubDate>Fri, 9 Sep 2011 12:00:00 GMT</pubDate>
+<description><![CDATA[We are starting a training course in Software Testing on September 27, 2011. This will be an evenings only course held from 6 pm to 9 pm. There will be 6 sessions. Completion of the ISTQB Foundation Level Certification exam is included in the course, as an additional session of the course.]]></description>
+</item>
+<item>
+<title>Work days only Software Testing (Software QA) Course</title>
+<link>http://www.utoronto.ca/deeds/training/software-testing/#access</link>
+<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/software-testing/?e=3</guid>
+<pubDate>Mon, 8 Aug 2011 12:00:00 GMT</pubDate>
+<description><![CDATA[We are starting a training course in Software Testing on October 31, 2011. This will be a full-time course held daily for two weeks.]]></description>
+</item>
+<item>
+<title>Evenings only Software Testing (Software QA) Course</title>
+<link>http://www.utoronto.ca/deeds/training/software-testing/#access</link>
+<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/software-testing/?e=2</guid>
+<pubDate>Mon, 8 Aug 2011 12:00:00 GMT</pubDate>
+<description><![CDATA[We are starting a training course in Software Testing on September 6, 2011. This will be a part-time course held in the evening from 6 pm to 9 pm. There will be 15 sessions. Completion of the ISTQB Foundation Level Certification exam is included in the course.]]></description>
 </item>
 <item>
 <title>Software Testing</title>
-<link>http://www.utoronto.ca/deeds/training/software-testing/</link>
-<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/software-testing/</guid>
+<link>http://www.utoronto.ca/deeds/training/software-testing/#access</link>
+<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/software-testing/?e=1</guid>
 <pubDate>Fri, 10 Jun 2011 12:00:00 GMT</pubDate>
 <description><![CDATA[We are planning to start a Software Testing course in the near future.]]></description>
 </item>
 <item>
 <title>Internet Application Development with PHP, MySQL and AJAX</title>
-<link>http://www.utoronto.ca/deeds/training/php/</link>
-<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/php/</guid>
+<link>http://www.utoronto.ca/deeds/training/php/#access</link>
+<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/php/?e=1</guid>
 <pubDate>Fri, 10 Jun 2011 12:00:00 GMT</pubDate>
 <description><![CDATA[We are planning to start a hands-on training course in PHP, MySQL and AJAX very soon.]]></description>
+</item>
+<item>
+<title>New starting date for Internet Application Development with Java EE, MySQL and AJAX</title>
+<link>http://www.utoronto.ca/deeds/training/java/#access</link>
+<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/java/?e=2</guid>
+<pubDate>Fri, 10 Jun 2011 12:00:00 GMT</pubDate>
+<description><![CDATA[The starting date for this course is now July 18, 2011.]]></description>
+</item>
+<item>
+<title>New course starting July 4, 2011</title>
+<link>http://www.utoronto.ca/deeds/training/java/#access</link>
+<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/java/?e=1</guid>
+<pubDate>Tue, 19 Apr 2011 14:00:00 GMT</pubDate>
+<description><![CDATA[The DEEDS Project will be starting a new course in July 2011.]]></description>
 </item>
 </channel>
 </rss>

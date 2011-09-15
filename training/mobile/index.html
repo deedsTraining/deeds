@@ -2,22 +2,22 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>The DEEDS Project | PHP Programming</title>
+<title>The DEEDS Project | Mobile Development using Android and Java</title>
 <base href="http://www.utoronto.ca/deeds/" />
+<link rel="canonical" href="http://www.utoronto.ca/deeds/training/mobile" />
 <link rel="shortcut icon" href="images/favicon.ico" />
-<link rel="canonical" href="http://www.utoronto.ca/deeds/training/php" />
 <link href="css/reset.css" rel="stylesheet" type="text/css"/>
 <link href="css/training.css" rel="stylesheet" type="text/css"/>
+<link href="css/buttons.css" rel="stylesheet" type="text/css" />
 <link href="css/handheld.css" rel="stylesheet" type="text/css" media="handheld" />
 <link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
-<link href="css/buttons.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
-#button1 {width: 40% }
-a.multi-line-button .title { font-size: 14px }
-a.multi-line-button .subtitle { font-size: 12px }
-</style>  
+#button1,#button2 { width: 40% }
+a.multi-line-button .title { font-size: 1em; color:white }
+a.multi-line-button .subtitle { font-size: .8em; color:white }
+</style>
 </head>
-<body id="php">
+<body id="mobile">
 <div class="wrapper">
 <div id="header">
 <h1><a href="." accesskey="1" title="The DEEDS Project">The DEEDS Project</a></h1>
@@ -32,191 +32,177 @@ a.multi-line-button .subtitle { font-size: 12px }
 </div>
 <div id="middle">
 <div id="content">  
-<a href="training/php/#access" accesskey="2"></a> 
-<h2 id="access">Internet Application Development with PHP, MySQL, and AJAX</h2>
+<a href="training/mobile/#access" accesskey="2"></a> 
+<h2 id="access">Mobile Development using Android&trade; and Java&trade;</h2>
 <div class="multi-column-list">
 <div class="size1of2 column1">
 <ul>
-<li>This course is being planned</li>
-<li>We are planning to start this course soon</li> 
-<li>Join our mailing list and we'll <a href="training/php/coming-soon.html" title="Coming Soon">let you know when</a></li>
-<li><a href="training/php/#description">Course Description</a></li>
-<li><a href="training/php/#requirements">Course Requirements</a></li>
-<li><a href="training/php/#disclaimer">More information</a></li>
+<li><a href="training/mobile/coming-soon.html" title="Join the mailing list">Join the mailing list for updates on this course</a></li>
+<!--<li><a href="training/mobile/register/" title="Register today">Register for any Module, or combination of Modules</a></li>-->
+<li><a href="training/mobile/#description">Course Description</a></li>
+<li><a href="training/mobile/#requirements">Course Requirements</a></li>
+<li><a href="training/mobile/#payment">Tuition Fees</a></li>
+<li><a href="training/mobile/#funding">Funding Resources</a></li>
 </ul>
 </div>
 <div class="size1of2 column2">
 <ul class="none">
-<li><a id="button1" class='multi-line-button orange' href="training/php/coming-soon.html"><span class='title'>Yes, let me know!</span><span class='subtitle'>Coming Soon</span></a></li>
+<!--<li><a id="button1" class='multi-line-button orange' href="training/mobile/register/"><span class='title'>Register today</span><span class='subtitle'>Seats are limited</span></a></li>-->
+<li><a id="button2" class='multi-line-button blue' href="training/mobile/coming-soon.html"><span class='title'>I'm interested</span><span class='subtitle'>More info, please</span></a></li>
 </ul>
 </div>
 </div>
 <div class="clear"></div>
-<h4>This course consists of the following weekly modules, register for the entire course or for any individual modules, or for any combination.</h4>    
-<h2 id="xml1">Introduction to XML</h2>
+<h3>This course consists of the following weekly modules. You can take the entire course or any module or modules. (<a href="training/#mobile-course">Course Dates</a>)</h3>    
+<h2 id="linux">Introduction to Linux/Unix</h2>
 <h3>Prerequisite: Completion of a College-level Certificate course in computing or equivalent</h3>
-<h3>Dates: TBA</h3>
-<p>The Extensible Markup Language (XML) is a set of tools for organizing and manipulating data on the computer. It provides a common ground for programs that otherwise might not be able to communicate with one another.</p>
+<p>Linux is the operating system of Android, and also one of the possible operating systems for development.</p>
 <h4>Topics covered:</h4>
 <ul class="list">
-<li>The basic parts of an XML document.
-<ul class="list"><li>Tags, elements, attributes, comments, and entities.</li></ul></li>
-<li>How to write a well formed XML document.</li>
-<li>Verify the correctness of a document with xmllint.</li>
-<li>Specifying an official document plan with XML Schema.</li></ul>
-<h2 id="database1">Introduction to Database and SQL (MySQL)</h2>
-<h3>Prerequisite: Completion of Introduction to XML or equivalent</h3>
-<h3>Dates: TBA</h3>
-<p>MySQL is a popular open source database from Oracle that powers some of the most popular websites on the Internet. SQL is the programming language the powers MySQL (and every other relational database). In this course you will learn the basics of SQL.</p>
+<li>Installing Ubuntu Linux as a Windows application using Wubi.</li>
+<li>Uninstalling Ubuntu.</li>
+<li>Basic shell (Bash) commands.</li>
+<li>Accessing remote systems.</li>
+<li>The Unix filesystem and manipulating files.</li>
+<li>File ownership and permissions.</li>
+<li>The find and grep commands.</li>
+<li>Archive utilities.</li>
+<li>Scripts.</li>
+<li>The PATH.</li>
+</ul>
+<h2 id="mysql1">Introduction to Databases and SQL (with Oracle MySQL)</h2>
+<h3>Prerequisite: Introduction to Linux/Unix or equivalent</h3>
+<p>MySQL is a popular open source database from Oracle. SQL is the programming language the powers MySQL (and every other relational database). In this course you will learn the basics of SQL.</p>
 <h4>Topics covered:</h4>
 <ul class="list">
-<li>Connecting to a MySQL database using the MySQL client.
-<li>Retrieve data using the SELECT statement.
+<li>Connecting to a MySQL database using the MySQL client.</li>
+<li>Retrieve data using the SELECT statement.</li>
 <li>Filter the SELECT statement using the WHERE clause.
 <ul class="list"><li>AND, OR, and NOT.</li></ul></li>
 <li>Simple Single row functions.</li>
 <li>Simple Aggregate functions.</li>
-<li>JOINing tables.</li>
+<li>Aggregate functions using GROUP BY and HAVING.</li>
 <li>Creating and modifying tables to store data.</li>
 <li>SQL datatypes.</li>
-<li>Primary keys and indexes.</li>
+<li>Primary keys, foreign keys, and indexes.</li>
+<li>InnoDB tables vs. MyISAM tables.</li>
 <li>Using the Data Manipulation Language (DML).
-<ul class="list"><li>INSERT.</li>
-<li>UPDATE.</li>
-<li>DELETE.</li></ul></ul>
-<h2 id="database2">Intermediate Database and SQL</h2>
-<h3>Prerequisite: Completion of Introduction to Database and SQL (MySQL) or equivalent</h3>
-<h3>Dates: TBA</h3>
+<ul class="list"><li>INSERT, UPDATE, and DELETE.</li></ul></li>
+</ul>
+<h2 id="mysql2">Intermediate Database and SQL</h2>
+<h3>Prerequisite: Introduction to Databases and SQL (with Oracle MySQL) or equivalent</h3>
 <p>This course is a continuation of the Introduction to Database and SQL (MySQL) course.</p>
-<h4>Topics covered:</h4>
 <ul class="list">
 <li>Advanced (multitable) JOINs.</li>
-<li>Aggregate functions using GROUP BY and HAVING.</li>
+<li>Inner and Outer JOINs.</li>
+<li>Left and Right JOINs.</li>
 <li>Subqueries.</li>
-<li>Advanced Functions.
-<ul class="list"><li>String functions.</li>
-<li>Date/time functions.</li></ul></li>
+<li>Advanced Functions.</li>
+<li>String functions.</li>
+<li>Date/time functions.</li>
 <li>Regular Expressions.</li>
-<li>Database maintenance using the root account.
-<ul class="list"><li>Manipulate databases.</li>
+<li>Database maintenance using the root account.</li>
+<li>Manipulate databases.</li>
 <li>Create and manipulate user accounts.</li>
 <li>Permissions.</li>
-</ul></li>
 <li>Back up databases and tables with mysqldump.</li>
-<li>Restore backed up databases.</li></ul>
-<h2 id="php1">Introduction to PHP</h2>
+<li>Restore backed up databases.</li>
+</ul>
+<h2 id="java1">Introduction to Java&trade;</h2>
 <h3>Prerequisite: Completion of a College-level Certificate course in computing or equivalent</h3>
-<h3>Dates: TBA</h3>
-<h4>Topics covered:</h4>
+<p>Using the Java compiler and the Java Virtual Machine from the command line.</p>
 <ul class="list">
-<li>Using PHP on the Web and from the Command Line.</li>
-<li>Command line input and output.</li>
-<li>Code Fragments on the Web.</li>
-<li>Formatted output.</li>
-<li>Expressions, operators, and variables.</li>
-<li>Types.</li>
-<li>Control statements.</li>
-<li>Arrays.</li>
-<li>Functions.</li>
+  <li>An introduction to the Eclipse integrated development environment (IDE).</li>
+  <li>The anatomy of a Java class.</li>
+  <li>Command line input and output.</li>
+  <li>Formatted output.</li>
+  <li>Expressions, operators, and variables.</li>
+  <li>Types.</li>
+  <li>Control statements.</li>
+  <li>Arrays.</li>
+  <li>Collections (part 1).</li>
+  <li>Methods.</li>
 </ul>
-<h2 id="php2">Intermediate PHP</h2>
-<h3>Prerequisite: Completion of Introduction to PHP or equivalent</h3>
-<h3>Dates: TBA</h3>
-<h4>Topics covered:</h4>
+<h2 id="java2">Intermediate Java&trade;</h2>
+<h3>Prerequisite: Introduction to Java or equivalent</h3>
+<p>Object-Oriented programming with classes and objects.</p>
 <ul class="list">
-<li>Include vs. Require.</li>
-<li>Global vs. Local Variables.</li>
-<li>Advanced Arrays.</li>
-<li>Classes.</li>
-<li>Constructors.</li>
+  <li>Fields.</li>
+  <li>Default, public, private, and protected access.</li>
+  <li>Static members verses instance members.</li>
+  <li>Constructors.</li>
+  <li>Inheritance and composition.</li>
+  <li>Polymorphism.</li>
+  <li>Exceptions.</li>
 </ul>
-<h2 id="php3">Advanced PHP (Programming with the PHP Library)</h2>
-<h3>Prerequisite: Completion of Intermediate PHP or equivalent</h3>
-<h3>Dates: TBA</h3>
-<h4>Topics covered:</h4>
+<h2 id="java3">Advanced Java&trade;</h2>
+<h3>Prerequisite: Intermediate Java or equivalent</h3>
 <ul class="list">
-<li>Dates.</li>
-<li>String functions.</li>
-<li>Regular Expressions.</li>
-<li>Files.</li>
-<li>Processing XML files.</li>
+  <li>Dates and Calendars.</li>
+  <li>Generics and Collections (part 2).</li>
+  <li>String methods.</li>
+  <li>Regular expressions.</li>
+  <li>Processing files.</li>
+  <li>Processing XML files.</li>
+  <li>Threads.</li>
+  <li>Packaging Java programs for distribution using the jar command.</li>
 </ul>
-<h2 id="php4">PHP and Database Programming</h2>
-<h3>Prerequisite: Completion of Advanced PHP or equivalent</h3>
-<h3>Dates: TBA</h3>
-<h4>Topics covered:</h4>
+<h2 id="android1">Introduction to Programming for the Android&trade; Platform Using Java&trade;</h2>
+<h3>Prerequisites: Advanced Java, Intermediate Database, and Unix/Linux</h3>
 <ul class="list">
-<li>PHP Database Extensions.</li>
-<li>Writing queries that fetch data.</li>
-<li>Writing queries that update the database.</li>
-<li>Writing queries that insert data into the database.</li>
-<li>Common database programming patterns.</li>
+  <li>Overview of the Android Platform.</li>
+  <li>Setting up the Eclipse Development Environment and Integrating the Android SDK.</li>
+  <li>Understanding Android Device Simulators.</li>
+  <li>XML Syntax.</li>
+  <li>Creating a simple Android User Interface Using Java Code.</li>
+  <li>Creating a simple Android User Interface Using XML.</li>
+  <li>Creating a simple Android Application.</li>
 </ul>
-<h2 id="html1">Web Design</h2>
-<h3>Prerequisite: Completion of a College-level Certificate course in computing or equivalent</h3>
-<h3>Dates: TBA</h3>
-<h4>Topics covered:</h4>
+<h2 id="android2">Intermediate Programming for the Android&trade; Platform Using Java&trade;</h2>
+<h3>Prerequisite: Introduction to Programming for the Android Platform Using Java or equivalent</h3>
 <ul class="list">
-<li>HTML basics.</li>
-<li>HTML Tables.</li>
-<li>CSS (Cascading Style Sheets)</li>
-<li>HTML forms.</li>
-<li>URL basics.</li>
+  <li>Resources in XML.</li>
+  <li>Content Providers.</li>
+  <li>Introduction to SQLite.</li>
+  <li>Preferences and Saving State.</li>
+  <li>Packages.</li>
+  <li>Android Security.</li>
 </ul>
-<h2 id="php5">Basic PHP Web Design</h2>
-<h3>Prerequisite: PHP and Database Programming or equivalent</h3>
-<h3>Dates: TBA</h3>
-<h4>Topics covered:</h4>
+<h2 id="android3">Designing User Interfaces for the Android&trade; Platform Using Java&trade;</h2>
+<h3>Prerequisite: Intermediate Programming for the Android Platform Using Java, or equivalent</h3>
 <ul class="list">
-<li>How do web servers and web browsers interact?</li>
-<li>Web application architecture.</li>
-<li>The Model-View-Controller (MVC) design pattern.</li>
-<li>PHP Database Model.</li>
-<li>PHP Forms (View).</li>
-<li>PHP Controllers.</li>
-<li>Requests (GET verses POST).</li>
+  <li>Intents.</li>
+  <li>Designing User Interfaces for Android using XML and Java.</li>
+  <li>Common Controls.</li>
+  <li>Adapters.</li>
+  <li>Layouts.</li>
+  <li>Menus.</li>
+  <li>Dialogs.</li>
 </ul>
-<h2 id="php6">Advanced PHP Web Design</h2>
-<h3>Prerequisite: Basic PHP Web Design</h3>
-<h3>Dates: TBA</h3>
-<h4>Topics covered:</h4>
+<h2 id="android4">Advanced Programming for the Android&trade; Platform Using Java&trade;</h2>
+<h3>Prerequisite: Designing Uses Interfaces for the Android Platform Using Java, or equivalent</h3>
 <ul class="list">
-<li>Redirects.</li>
-<li>Using sessions in PHP.</li>
-<li>Templating using PHP.</li>
-<li>Uploads using PHP.</li>
-<li>A large, complex in-class example</li>
+  <li>Handlers and Threading.</li>
+  <li>2D Graphics and Animation.</li>
+  <li>The Media Framework.</li>
+  <li>Touch Screen Programming.</li>
+  <li>Sensors.</li>
 </ul>
-<h2 id="javascript1">Programming with JavaScript</h2>
-<h3>Prerequisite: Completion of a College-level Certificate course in computing or equivalent</h3>
-<h3>Dates: TBA</h3>
-<h4>Topics covered:</h4>
+<h2 id="android5">Integration with the Android&trade; OS</h2>
+<h3>Prerequisite: Advanced Programming for the Android Platform Using Java, or equivalent</h3>
 <ul class="list">
-<li>Comparing JavaScript to Java (JavaScript is not Java).</li>
-<li>Using the standard JavaScript objects and functions.</li>
-<li>Objects in JavaScript.</li>
-<li>Using the browser's document object model (DOM).</li>
-<li>Catching and handling events.</li>
-<li>Validating data in an HTML form.</li>
-<li>Writing a numeric validation function.</li>
-<li>Dynamic HTML.</li>
+  <li>Consuming Web Services.</li>
+  <li>Alarms.</li>
+  <li>Maps.</li>
+  <li>Telephony.</li>
+  <li>Search.</li>
+  <li>Contacts.</li>
 </ul>
-<h2 id="ajax1">Programming XML with JavaScript (DOM and AJAX)</h2>
-<h3>Prerequisite: Completion of Programming with JavaScript or equivalent</h3>
-<p>This course ties together everything else that has come before.</p>
-<h3>Dates: TBA</h3>
-<h4>Topics covered:</h4>
+<h2 id="android6">Advanced Project for Android&trade; Using Java&trade;</h2>
+<h3>Prerequisite: Integration with the Android OS</h3>
 <ul class="list">
-<li>How AJAX works.</li>
-<li>Writing the server side program as a servlet or a JSP.</li>
-<li>Creating the XMLHttpRequest object in multiple web browsers.</li>
-<li>Anatomy of an AJAX request.</li>
-<li>Processing the response from the server in the web browser.</li>
-<li>Using XML to encode the data.</li>
-<li>Using JSON to encode the data.</li>
-<li>Presenting the response from the server to the user with dynamic HTML.</li>
-<li>Synchronous verses asynchronous AJAX.</li>
-<li>Using a ready-made library for AJAX (jQuery).</li>
+<li>A 100% practical, step-by-step exercise building a real Android application using open-source tools.</li>
+<li>Deploying your application to the Android Marketplace.</li>
 </ul>
 <h3 id="description">Course Description:</h3>
 <ul class="list">
@@ -270,15 +256,14 @@ a.multi-line-button .subtitle { font-size: 12px }
 <h6>Courses:</h6>
 <div id="linkbox-col1">
 <ul>
-<!--<li><a href="training/php/" title="Internet Application Development with PHP, MySQL, and AJAX">Internet Application Development with PHP, MySQL, and AJAX</a></li>-->
+<li><a href="training/php/" title="Internet Application Development with PHP, MySQL, and AJAX">Internet Application Development with PHP, MySQL, and AJAX</a></li>
 <li><a href="training/software-testing/" title="Software Testing">Software Testing</a></li>
-<li><a href="training/java/">Internet Application Development with Java&trade; EE, MySQL, and AJAX</a></li>
 </ul>
 </div>
 <div id="linkbox-col2">
 <ul>
-<li><a href="training/mobile/" title="Mobile Development using Android&trade; and Java&trade;">Mobile Development using Android&trade; and Java&trade;</a></li>
 <li><a href="training/android/" title="Advanced Programming for the Android&trade; Platform Using Java&trade;">Advanced Programming for the Android Platform Using Java</a></li>
+<li><a href="training/java/">Internet Application Development with Java&trade; EE, MySQL, and AJAX</a></li>
 </ul>
 </div>
 <div class="clear"></div>
@@ -303,24 +288,22 @@ a.multi-line-button .subtitle { font-size: 12px }
 <div id="footer">&nbsp;
 Copyright &copy; <a href="." title="The DEEDS Project">The DEEDS Project</a>
 <ul class="mininav">
-<li class="first"><a href="training/contact-form.html" title="Contact us">Contact us</a></li>
+<li class="first"><a href="training/contact-form.html" accesskey="9" title="Contact us">Contact us</a></li>
 <li><a href="testimonials.html" title="Testimonials">Testimonials</a></li>
 <li><a href="access.html" accesskey="0" title="Accessibility">Accessibility</a></li>
 </ul> 
 </div>
 </div>
-<noscript>
-<p id="noscript">You will not get the full functionality of this page because JavaScript is disabled.</p></noscript>
-<script type="text/javascript"> 
+<noscript><p id="noscript">You will not get the full functionality of this page because JavaScript is disabled.</p></noscript>
+<script type="text/javascript">
  var _gaq = _gaq || [];
- _gaq.push(['_setAccount', 'UA-18614356-6']);
- _gaq.push(['_trackPageview']);
- _gaq.push(['_trackPageLoadTime']);
- (function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>    
+_gaq.push(['_setAccount','UA-18614356-7']);
+_gaq.push(['_trackPageview']);
+(function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+</script>
 </body>
 </html>

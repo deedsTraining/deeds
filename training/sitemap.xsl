@@ -19,7 +19,7 @@ ul { list-style:none }
 </head>
 <body>
 <div id="content">
-<h1><a href="http://www.utoronto.ca/">The DEEDS Project</a></h1>
+<h1><a href="http://www.utoronto.ca/deeds/">The DEEDS Project</a></h1>
 <p>This sitemap contains <xsl:value-of select="count(sitemap:urlset/sitemap:url)"/> pages.</p>
 <ul>
 <xsl:for-each select="sitemap:urlset/sitemap:url">

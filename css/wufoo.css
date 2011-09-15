@@ -1,2 +1,6 @@
-input.btTxt { background-color:#d55633; border:1px solid #d56d46; color:#ffffff; padding:4px 15px 4px 15px; font-family:"Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif }  
-input.btTxt:hover { background-color:#ab3d1f } 
+input.btTxt { background-color:#ffa500;  border:1px solid #d56d46; ;  width:auto;  overflow:visible; color:#ffffff; padding:4px 15px 4px 15px; font-family:"Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif }  
+input.btTxt:hover { background-color:#ff4500; border:1px solid #C9C9C9; width:auto; overflow:visible }
+
+/*
+input.text, input.search, textarea.textarea { -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px }
+*/
