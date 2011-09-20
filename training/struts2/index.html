@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <title>The DEEDS Project | Struts 2</title>
 <base href="http://www.utoronto.ca/deeds/" />
-<link rel="canonical" href="http://www.utoronto.ca/deeds/training/jdk" />
+<link rel="canonical" href="http://www.utoronto.ca/deeds/training/struts2" />
 <link rel="shortcut icon" href="images/favicon.ico" />
 <link href="css/reset.css" rel="stylesheet" type="text/css"/>
 <link href="css/training.css" rel="stylesheet" type="text/css"/>
@@ -17,7 +17,7 @@ a.multi-line-button .title { font-size: 1em; color:white }
 a.multi-line-button .subtitle { font-size: .8em; color:white }
 </style>
 </head>
-<body id="struts">
+<body id="struts2">
 <div class="wrapper">
 <div id="header">
 <h1><a href="." accesskey="1" title="The DEEDS Project">The DEEDS Project</a></h1>
@@ -53,7 +53,7 @@ a.multi-line-button .subtitle { font-size: .8em; color:white }
 </div>
 </div>
 <div class="clear"></div>
-<h2 id="jdk-course">Course Topics:</h2>
+<h2 id="struts2-course">Course Topics:</h2>
 <ul class="list">
   <li>Actions</li>
   <li>Interceptors</li>
@@ -65,7 +65,8 @@ a.multi-line-button .subtitle { font-size: .8em; color:white }
 </ul>
 <h3 id="description">Course Description:</h3>
 <ul class="list">
-<li><a href="http://maps.google.ca/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=The+DEEDS+Project,+Toronto,+Ontario&amp;sll=49.891235,-97.15369&amp;sspn=33.029007,70.488281&amp;ie=UTF8&amp;hq=The+DEEDS+Project,&amp;hnear=Toronto,+Toronto+Division,+Ontario&amp;ll=43.667127,-79.399567&amp;spn=0.043461,0.072956&amp;z=13&amp;iwloc=A" title="location">Our courses are held at the University of Toronto, St. George campus (downtown Toronto)</a></li>
+<li><a
+  href="http://maps.google.ca/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=The+DEEDS+Project,+Toronto,+Ontario&amp;sll=49.891235,-97.15369&amp;sspn=33.029007,70.488281&amp;ie=UTF8&amp;hq=The+DEEDS+Project,&amp;hnear=Toronto,+Toronto+Division,+Ontario&amp;ll=43.667127,-79.399567&amp;spn=0.043461,0.072956&amp;z=13&amp;iwloc=A" title="location">Our courses are held at the University of Toronto, St. George campus (downtown Toronto)</a>.</li>
 <li>This course will include lectures and hands-on supervised computer labs, split 50% lectures and 50% labs.</li>
 <li>Students will be able to access their work remotely at any time.</li>
 </ul>
@@ -123,19 +124,12 @@ a.multi-line-button .subtitle { font-size: .8em; color:white }
 <div class="addthis_toolbox addthis_default_style ">
 <a class="addthis_button_preferred_2"></a>
 <a class="addthis_button_preferred_1"></a>
-<a class="addthis_button_google_plusone" g:plusone:count="false"></a>
 <a class="addthis_button_preferred_7"></a>
 <a class="addthis_button_preferred_4"></a>
 <a class="addthis_button_preferred_3"></a>
 <a class="addthis_button_compact"></a>
+<div class="g-plusone" data-size="small" data-annotation="none"></div>
 </div>
-<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=deeds.education"></script>
-<script type="text/javascript">
- var addthis_config = {"data_track_clickback":true,
- "data_track_addressbar":true,
- ui_header_color: "#104555",  
- ui_cobrand: "The DEEDS Project" }
-</script>
 </div>
 <div id="footer">&nbsp;
 Copyright &copy; <a href="." title="The DEEDS Project">The DEEDS Project</a>
@@ -147,15 +141,29 @@ Copyright &copy; <a href="." title="The DEEDS Project">The DEEDS Project</a>
 </div>
 </div>
 <noscript><p id="noscript">You will not get the full functionality of this page because JavaScript is disabled.</p></noscript>
-<!--<script type="text/javascript">
- var _gaq = _gaq || [];
-_gaq.push(['_setAccount','UA-XXXXXXXX-X']);
-_gaq.push(['_trackPageview']);
-(function() {
- var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
- ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
- var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
- })();
-</script>-->
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=deeds.education"></script>
+<script type="text/javascript">
+ var addthis_config = {"data_track_clickback":true,
+ "data_track_addressbar":true,
+ ui_header_color: "#104555",  
+ ui_cobrand: "The DEEDS Project" }
+</script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18614356-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 </body>
 </html>

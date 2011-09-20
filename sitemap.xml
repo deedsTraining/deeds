@@ -3,20 +3,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
  <loc>http://www.utoronto.ca/deeds/</loc>
- <lastmod>2011-04-19T18:00:00Z</lastmod>
+ <lastmod>2011-09-20T18:00:00Z</lastmod>
  <changefreq>weekly</changefreq>
  <priority>0.8</priority>
 </url>
 <url>
  <loc>http://www.utoronto.ca/deeds/testimonials.html</loc>
  <lastmod>2011-04-19T18:00:00Z</lastmod>
- <changefreq>weekly</changefreq>
+ <changefreq>monthly</changefreq>
  <priority>0.5</priority>
 </url>
  <url>
  <loc>http://www.utoronto.ca/deeds/about.html</loc>
  <lastmod>2011-04-19T18:00:00Z</lastmod>
- <changefreq>weekly</changefreq>
+ <changefreq>monthly</changefreq>
  <priority>0.5</priority>
 </url>
 <url>
@@ -27,37 +27,49 @@
 </url>
 <url>
  <loc>http://www.utoronto.ca/deeds/training/</loc>
- <lastmod>2011-04-19T18:00:00Z</lastmod>
+ <lastmod>2011-09-20T12:00:00Z</lastmod>
  <changefreq>weekly</changefreq>
  <priority>0.8</priority>
 </url>
 <url>
  <loc>http://www.utoronto.ca/deeds/training/java/</loc>
- <lastmod>2011-04-19T18:00:00Z</lastmod>
+ <lastmod>2011-09-20T12:00:00Z</lastmod>
  <changefreq>weekly</changefreq>
  <priority>0.8</priority>
 </url>
 <url>
  <loc>http://www.utoronto.ca/deeds/training/php/</loc>
- <lastmod>2011-04-19T18:00:00Z</lastmod>
+ <lastmod>2011-09-20T12:00:00Z</lastmod>
  <changefreq>weekly</changefreq>
  <priority>0.8</priority>
 </url>
 <url>
  <loc>http://www.utoronto.ca/deeds/training/software-testing/</loc>
- <lastmod>2011-06-10T12:00:00Z</lastmod>
+ <lastmod>2011-09-20T12:00:00Z</lastmod>
  <changefreq>weekly</changefreq>
  <priority>0.8</priority>
 </url>
 <url>
 <loc>http://www.utoronto.ca/deeds/training/mobile/</loc>
-<lastmod>2011-09-01T12:00:00Z</lastmod>
+<lastmod>2011-09-20T12:00:00Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>http://www.utoronto.ca/deeds/training/android/</loc>
-<lastmod>2011-09-01T12:00:00Z</lastmod>
+<lastmod>2011-09-20T12:00:00Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://www.utoronto.ca/deeds/training/advanced-java/</loc>
+<lastmod>2011-09-20T12:00:00Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>http://www.utoronto.ca/deeds/training/struts2/</loc>
+<lastmod>2011-09-20T12:00:00Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
 </url>
