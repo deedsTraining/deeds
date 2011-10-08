@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>The DEEDS Project | PHP Programming</title>
+<title>The DEEDS Project | Internet Application Development with PHP, MySQL, and AJAX</title>
 <base href="http://www.utoronto.ca/deeds/" />
 <link rel="shortcut icon" href="images/favicon.ico" />
 <link rel="canonical" href="http://www.utoronto.ca/deeds/training/php" />
@@ -11,6 +11,12 @@
 <link href="css/handheld.css" rel="stylesheet" type="text/css" media="handheld" />
 <link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
 <link href="css/buttons.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-18614356-6']);
+ _gaq.push(['_trackPageview']);
+ _gaq.push(['_trackPageLoadTime']);
+</script>
 <style type="text/css">
 #button1 {width: 40% }
 a.multi-line-button .title { font-size: 14px }
@@ -37,11 +43,11 @@ a.multi-line-button .subtitle { font-size: 12px }
 <div class="multi-column-list">
 <div class="size1of2 column1">
 <ul>
-<li>This course is being planned</li>
-<li>We are planning to start this course soon</li> 
+<li>This course is being planned, and will start soon</li>
 <li>Join our mailing list and we'll <a href="training/php/coming-soon.html" title="Coming Soon">let you know when</a></li>
 <li><a href="training/php/#description">Course Description</a></li>
 <li><a href="training/php/#requirements">Course Requirements</a></li>
+<li><a href="training/php/#fees">Tuition Fees</a></li>
 <li><a href="training/php/#disclaimer">More information</a></li>
 </ul>
 </div>
@@ -230,7 +236,7 @@ a.multi-line-button .subtitle { font-size: 12px }
 <li>Prerequisites are guidelines, only. Ideally you should have similar knowledge to the prerequisites specified.</li>
 <li>Seats are limited. Course registration is on a first-come, first-served basis.</li> 
 </ul>
-<h3 id="payment">Tuition Fees:</h3>
+<h3 id="fees">Tuition Fees:</h3>
 <ul class="list">
 <li>The cost of the full 12 week Certificate course (all modules) is $7,900.</li>
 <li>Individual modules are $990 for each module.</li> 
@@ -252,7 +258,7 @@ a.multi-line-button .subtitle { font-size: 12px }
 <li>As a result of recent changes to legislation, recent immigrants who have lived in Ontario for less than twelve months may be eligible for an OSAP loan. The twelve month residency rule for immigrants may be waived on appeal of the original decision. That is you must apply for an OSAP loan. If your application is denied you can then appeal this decision.</li>
 <li>The individual modules, individually or in any combination, do not qualify for OSAP.</li>
 <li>Employment Insurance recipients should contact an <a href="http://www.edu.gov.on.ca/eng/tcu/etlanding.html" title="Employment Ontario">Employment Ontario</a> counsellor regarding possible funding, before applying to any of our courses.</li>
-<li>This course qualifies under the Lifelong Learning Plan. The Lifelong Learning Plan is a Government of Canada initiative which allows qualifying students access to their RRSP funds for the payment of course fees. For more information see your 1999 or later income tax return guide or check with <a href="http://www.cra-arc.gc.ca/tx/ndvdls/tpcs/rrsp-reer/llp-reep/menu-eng.html" title="Canada Customs and Revenue">Canada Customs and Revenue</a>.</li>
+<li>This course qualifies under the Lifelong Learning Plan. The Lifelong Learning Plan is a Government of Canada initiative which allows qualifying students access to their RRSP funds for the payment of course fees. For more information see your 1999 or later income tax return guide or check with <a href="http://www.cra-arc.gc.ca/tx/ndvdls/tpcs/rrsp-reer/llp-reep/menu-eng.html" title="Canada Revenue Agency">Canada Revenue Agency</a>.</li>
 </ul>
 <h3 id="disclaimer">Please Note:</h3>
 <ul class="list">
@@ -270,15 +276,17 @@ a.multi-line-button .subtitle { font-size: 12px }
 <h6>Courses:</h6>
 <div id="linkbox-col1">
 <ul>
-<!--<li><a href="training/php/" title="Internet Application Development with PHP, MySQL, and AJAX">Internet Application Development with PHP, MySQL, and AJAX</a></li>-->
 <li><a href="training/software-testing/" title="Software Testing">Software Testing</a></li>
-<li><a href="training/java/">Internet Application Development with Java&trade; EE, MySQL, and AJAX</a></li>
+<!--<li><a href="training/php/" title="Internet Application Development with PHP, MySQL, and AJAX">Internet Application Development with PHP, MySQL, and AJAX</a></li>-->
+<li><a href="training/java/" title="Internet Application Development with Java EE, MySQL, and AJAX">Internet Application Development with Java&trade; EE, MySQL, and AJAX</a></li>
 </ul>
 </div>
 <div id="linkbox-col2">
 <ul>
 <li><a href="training/mobile/" title="Mobile Development using Android&trade; and Java&trade;">Mobile Development using Android&trade; and Java&trade;</a></li>
-<li><a href="training/android/" title="Advanced Programming for the Android&trade; Platform Using Java&trade;">Advanced Programming for the Android Platform Using Java</a></li>
+<li><a href="training/android/" title="Advanced Programming for the Android&trade; Platform Using Java&trade;">Advanced Programming for the Android&trade; Platform Using Java&trade;</a></li>
+<li><a href="training/advanced-java/" title="Advanced Topics in Java&trade;">Advanced Topics in Java&trade;</a></li>
+<li><a href="training/struts2/" title="Struts 2">Struts 2</a></li>
 </ul>
 </div>
 <div class="clear"></div>
@@ -286,19 +294,12 @@ a.multi-line-button .subtitle { font-size: 12px }
 <div class="addthis_toolbox addthis_default_style ">
 <a class="addthis_button_preferred_2"></a>
 <a class="addthis_button_preferred_1"></a>
-<a class="addthis_button_google_plusone" g:plusone:count="false"></a>
 <a class="addthis_button_preferred_7"></a>
 <a class="addthis_button_preferred_4"></a>
 <a class="addthis_button_preferred_3"></a>
 <a class="addthis_button_compact"></a>
+<div class="g-plusone" data-size="small" data-annotation="none"></div>
 </div>
-<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=deeds.education"></script>
-<script type="text/javascript">
- var addthis_config = {"data_track_clickback":true,
- "data_track_addressbar":true,
- ui_header_color: "#104555",  
- ui_cobrand: "The DEEDS Project" }
-</script>
 </div>
 <div id="footer">&nbsp;
 Copyright &copy; <a href="." title="The DEEDS Project">The DEEDS Project</a>
@@ -311,16 +312,26 @@ Copyright &copy; <a href="." title="The DEEDS Project">The DEEDS Project</a>
 </div>
 <noscript>
 <p id="noscript">You will not get the full functionality of this page because JavaScript is disabled.</p></noscript>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=deeds.education"></script>
+<script type="text/javascript">
+ var addthis_config = {"data_track_clickback":true,
+ "data_track_addressbar":true,
+ ui_header_color: "#104555",  
+ ui_cobrand: "The DEEDS Project" }
+</script>
+<script type="text/javascript">
+(function() {
+ var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+ po.src = 'https://apis.google.com/js/plusone.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+</script>
 <script type="text/javascript"> 
- var _gaq = _gaq || [];
- _gaq.push(['_setAccount', 'UA-18614356-6']);
- _gaq.push(['_trackPageview']);
- _gaq.push(['_trackPageLoadTime']);
- (function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+(function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
 </script>    
 </body>
 </html>
