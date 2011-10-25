@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
 <title>The DEEDS Project | Struts 2</title>
 <base href="http://www.utoronto.ca/deeds/" />
 <link rel="canonical" href="http://www.utoronto.ca/deeds/training/struts2" />
 <link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
 <link href="css/reset.css" rel="stylesheet" type="text/css"/>
 <link href="css/training.css" rel="stylesheet" type="text/css"/>
 <link href="css/buttons.css" rel="stylesheet" type="text/css" />
@@ -21,6 +24,7 @@
 #button1,#button2 { width: 40% }
 a.multi-line-button .title { font-size: 1em; color:white }
 a.multi-line-button .subtitle { font-size: .8em; color:white }
+ul.row li {display:inline}
 </style>
 </head>
 <body id="struts2">
@@ -43,23 +47,24 @@ a.multi-line-button .subtitle { font-size: .8em; color:white }
 <div class="multi-column-list">
 <div class="size1of2 column1">
 <ul>
-<li><a href="training/struts2/register/" title="Register today">Register today, seats are limited</a></li>
+<!--<li><a href="training/struts2/register/" title="Register today">Register today, seats are limited</a></li>-->
 <li><a href="training/struts2/#description">Course Description</a></li>
+<li><a href="training/struts2/#topics">Course Topics</a></li>
 <li><a href="training/struts2/#requirements">Course Requirements</a></li>
-<li><a href="training/struts2/#payment">Tuition Fees</a></li>
+<li><a href="training/struts2/#tuition">Tuition Fees</a></li>
 <li><a href="training/struts2/#funding">Funding Resources</a></li>
 <li><a href="training/contact-form.html" title="Contact Form">Contact us for more information</a></li>
 </ul>
 </div>
 <div class="size1of2 column2">
 <ul class="none">
-<li><a id="button1" class='multi-line-button orange' href="training/struts2/register/"><span class='title'>Register today</span><span class='subtitle'>Seats are limited</span></a></li>
+<!--<li><a id="button1" class='multi-line-button orange' href="training/struts2/register/"><span class='title'>Register today</span><span class='subtitle'>Seats are limited</span></a></li>-->
 <li><a id="button2" class='multi-line-button blue' href="training/contact-form.html"><span class='title'>Contact Us</span><span class='subtitle'>for more info</span></a></li>
 </ul>
 </div>
 </div>
 <div class="clear"></div>
-<h2 id="struts2-course">Course Topics:</h2>
+<h2 id="topics">Course Topics:</h2>
 <ul class="list">
 <li>Actions</li>
 <li>Interceptors</li>
@@ -73,16 +78,17 @@ a.multi-line-button .subtitle { font-size: .8em; color:white }
 <ul class="list">
 <li><a href="http://maps.google.ca/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=The+DEEDS+Project,+Toronto,+Ontario&amp;sll=49.891235,-97.15369&amp;sspn=33.029007,70.488281&amp;ie=UTF8&amp;hq=The+DEEDS+Project,&amp;hnear=Toronto,+Toronto+Division,+Ontario&amp;ll=43.667127,-79.399567&amp;spn=0.043461,0.072956&amp;z=13&amp;iwloc=A" title="location">Our courses are held at the University of Toronto, St. George campus (downtown Toronto)</a>.</li>
 <li>This course will include lectures and hands-on supervised computer labs, split 50% lectures and 50% labs.</li>
-<li>Classes will be held Mondays and Wednesdays from 6 pm to 9 pm, starting on October 24, 2011.</li>
+<li>Classes will be held in the eveenings.</li>
 <li>Classes will alternate between lectures and supervised labs.</li>
 <li>Students will be able to access their work remotely at any time.</li>
 </ul>
 <h3 id="requirements">Course Requirements:</h3>
 <ul class="list">
 <li>Prerequisite: Knowledge of Java Programming, XML, SQL, and Unix/Linux</li>
+<li>All of our courses are open to anyone. Our courses are not part of any academic program at the University of Toronto. Our courses are administered by the University of Toronto.</li>
 <li>Seats are limited. Course registration is on a first-come, first-served basis.</li>
 </ul>
-<h3 id="payment">Tuition Fees:</h3>
+<h3 id="tuition">Tuition Fees:</h3>
 <ul class="list">
 <li>The tuition fees for this course are $1,490.</li>
 <li>Tuition fee payments are payable by Certified Cheque, Bank Draft or Money Order payable to the University of Toronto.</li>
@@ -119,6 +125,8 @@ a.multi-line-button .subtitle { font-size: .8em; color:white }
 <li><a href="training/software-testing/" title="Software Testing">Software Testing</a></li>
 <li><a href="training/php/" title="Internet Application Development with PHP, MySQL, and AJAX">Internet Application Development with PHP, MySQL, and AJAX</a></li>
 <li><a href="training/java/" title="Internet Application Development with Java EE, MySQL, and AJAX">Internet Application Development with Java&trade; EE, MySQL, and AJAX</a></li>
+<li><a href="training/drupal/day/" title="Create E-Commerce Websites with Drupal and PHP">Create E-Commerce Websites with Drupal and PHP | Days only course</a></li>
+<li><a href="training/drupal/evening/" title="Create E-Commerce Websites with Drupal and PHP">Create E-Commerce Websites with Drupal and PHP | Evenings only course</a></li>
 </ul>
 </div>
 <div id="linkbox-col2">
@@ -130,6 +138,18 @@ a.multi-line-button .subtitle { font-size: .8em; color:white }
 </ul>
 </div>
 <div class="clear"></div>
+<h6>About this course:</h6>
+<div id="linkbox-row1">
+<ul class="row">
+<!--<li><a href="training/struts2/register/" title="Register">Register</a></li>-->
+<!--<li><a href="training/struts2/coming-soon.html" title="Mailing List">Mailing List</a></li>-->
+<li><a href="training/struts2/#topics" title="Topics">Topics</a></li>
+<!--<li><a href="training/struts2/#schedule" title="Schedule">Schedule</a></li>-->
+<li><a href="training/struts2/#tuition" title="Tuition Fees">Tuition Fees</a></li>
+<li><a href="training/struts2/#funding" title="Funding Resources">Funding Resources</a></li>
+<li><a href="training/contact-form.html" title="Contact Form">Need more information?</a></li>
+</ul>
+</div>
 <h6>Share:</h6>
 <div class="addthis_toolbox addthis_default_style ">
 <a class="addthis_button_preferred_2"></a>
