@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
 <title>DEEDS Project | Training | Registration Form</title>
 <base href="http://www.utoronto.ca/deeds/" />
 <link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
 <link href="css/reset.css" rel="stylesheet" type="text/css"/>
 <link href="css/training.css" rel="stylesheet" type="text/css"/>
 <link href="css/handheld.css" rel="stylesheet" type="text/css" media="handheld" />
@@ -13,6 +16,7 @@
 #form1 {padding:20px}
 #fail {color:#333333;}
 #access {padding-left:20px}
+ul.row li {display:inline}
 </style>
 </head>
 <body id="software-testing-register">
@@ -41,7 +45,7 @@ s7x3a7.initialize({
 'formHash':'s7x3a7', 
 'autoResize':true,
 'header':'hide',
-'height':'726'});
+'height':'900'});
 s7x3a7.display();
 </script>
 <p id="fail">If for any reason you cannot use this form, send us an email at <a href="mailto:deeds.training@gmail.com?subject=Register">deeds.training@gmail.com</a>, and we will get back to you.</p>
@@ -52,9 +56,11 @@ s7x3a7.display();
 <h6>Courses:</h6>
 <div id="linkbox-col1">
 <ul>
-<!--<a href="training/software-testing/" title="Software Testing">Software Testing</a></li>-->
+<li><a href="training/software-testing/" title="Software Testing">Software Testing</a></li>
 <li><a href="training/php/" title="Internet Application Development with PHP, MySQL, and AJAX">Internet Application Development with PHP, MySQL, and AJAX</a></li>
 <li><a href="training/java/" title="Internet Application Development with Java EE, MySQL, and AJAX">Internet Application Development with Java&trade; EE, MySQL, and AJAX</a></li>
+<li><a href="training/drupal/day/" title="Create E-Commerce Websites with Drupal and PHP">Create E-Commerce Websites with Drupal and PHP | Days only course</a></li>
+<li><a href="training/drupal/evening/" title="Create E-Commerce Websites with Drupal and PHP">Create E-Commerce Websites with Drupal and PHP | Evenings only course</a></li>
 </ul>
 </div>
 <div id="linkbox-col2">
@@ -66,6 +72,17 @@ s7x3a7.display();
 </ul>
 </div>
 <div class="clear"></div>
+<h6>About this course:</h6>
+<div id="linkbox-row1">
+<ul class="row">
+<li><a href="training/software-testing/register/" title="Register">Register</a></li>
+<li><a href="training/contact/" title="Contact Us">Contact us, for more information</a></li>
+<li><a href="training/software-testing/#topics" title="Topics">Topics</a></li>
+<li><a href="training/software-testing/#schedule" title="Schedule">Schedule</a></li>
+<li><a href="training/software-testing/#tuition" title="Tuition Fees">Tuition Fees</a></li>
+<li><a href="training/software-testing/#funding" title="Funding Resources">Funding Resources</a></li>
+</ul>
+</div>
 <h6>Share:</h6>
 <div class="addthis_toolbox addthis_default_style ">
 <a class="addthis_button_preferred_2"></a>
@@ -80,7 +97,7 @@ s7x3a7.display();
 <div id="footer">&nbsp;
 Copyright &copy; <a href="." title="The DEEDS Project">The DEEDS Project</a>
 <ul class="mininav">
-<li class="first"><a href="training/contact-form.html" title="Contact us">Contact us</a></li>
+<li class="first"><a href="training/contact/" title="Contact us">Contact us</a></li>
 <li><a href="testimonials.html" title="Testimonials">Testimonials</a></li>
 <li><a href="access.html" accesskey="0" title="Accessibility">Accessibility</a></li>
 </ul> 
@@ -89,8 +106,8 @@ Copyright &copy; <a href="." title="The DEEDS Project">The DEEDS Project</a>
 <noscript><p id="noscript">You will not be able to use this form because JavaScript is disabled.</p></noscript>
 <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=deeds.education"></script>
 <script type="text/javascript">
- var addthis_config = {"data_track_clickback":true,
- "data_track_addressbar":true,
+ var addthis_config = {"data_track_clickback":false,
+ "data_track_addressbar":false,
  ui_header_color: "#104555",  
  ui_cobrand: "The DEEDS Project" }
 </script>
