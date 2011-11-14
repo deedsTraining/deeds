@@ -3,3 +3,4 @@ _site
 google*.html
 page-speed
 *unused.*
+*.swp
