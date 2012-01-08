@@ -4,37 +4,37 @@
 <channel>
 <title>DEEDS Project | Training Courses</title>
 <link>http://www.utoronto.ca/deeds/training/</link>
-<description>Hands-on training courses</description>
-<lastBuildDate>Thu, 8 Dec 2011 12:00:00 GMT</lastBuildDate>
+<description>Professional Training</description>
+<lastBuildDate>Sun, 8 Jan 2012 12:00:00 GMT</lastBuildDate>
 <language>en-us</language>
-<copyright>Copyright 2011, The DEEDS Project</copyright>
+<copyright>Copyright 2012, The DEEDS Project</copyright>
 <managingEditor>deeds.training@gmail.com (deedsTraining)</managingEditor>
 <image>
-<title>DEEDS Project | Training Courses</title>
+<title>DEEDS Project | Training</title>
 <url>http://www.utoronto.ca/deeds/images/header.png</url>
 <link>http://www.utoronto.ca/deeds/training/</link>
 </image>
 <atom:link href="http://www.utoronto.ca/deeds/training/announcements.xml" rel="self" type="application/rss+xml" />
 <item>
+<title>Software Testing (Software QA) Course</title>
+<link>http://www.utoronto.ca/deeds/training/software-testing/#access</link>
+<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/software-testing/?e=5</guid>
+<pubDate>Sun, 8 Jan 2012 12:00:00 GMT</pubDate>
+<description><![CDATA[ISTQB training course. Workdays only. Software Testing (QA) course starts January 17, 2012. Sessions daily from 1 pm to 4 pm. There will be 7 sessions plus 1 session for completing the ISTQB Foundation Level Certification exam.]]></description>
+</item>
+<item>
+<title>Software Testing (Software QA) Course</title>
+<link>http://www.utoronto.ca/deeds/training/software-testing/#access</link>
+<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/software-testing/?e=4</guid>
+<pubDate>Sun, 8 Jan 2012 12:00:00 GMT</pubDate>
+<description><![CDATA[ISTQB training course. Evenings only. Software Testing course starts January 26, 2012. Evenings only course from 6 pm to 9 pm, Tuesdays and Thursdays. There will be 7 sessions plus 1 session for completing the ISTQB Foundation Level Certification exam.]]></description>
+</item>
+<item>
 <title>Advanced Topics in Java</title>
 <link>http://www.utoronto.ca/deeds/training/advanced-java/#access</link>
 <guid isPermaLink="true">http://www.utoronto.ca/deeds/training/advanced-java/?e=8</guid>
-<pubDate>Thu, 8 Dec 2011 12:00:00 GMT</pubDate>
-<description><![CDATA[Evenings only training in advanced Java. Startng January 3, 2012. 10 sessions, two evenings per week.]]></description>
-</item>
-<item>
-<title>Workdays only Software Testing (Software QA) Course</title>
-<link>http://www.utoronto.ca/deeds/training/software-testing/#access</link>
-<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/software-testing/?e=5</guid>
-<pubDate>Thu, 8 Dec 2011 12:00:00 GMT</pubDate>
-<description><![CDATA[ISTQB training workdays only course in Software Testing starting January 17, 2012. Sessions daily from 1 pm to 4 pm. There will be 7 sessions plus 1 session for completing the ISTQB Foundation Level Certification.]]></description>
-</item>
-<item>
-<title>Evenings only Software Testing (Software QA) Course</title>
-<link>http://www.utoronto.ca/deeds/training/software-testing/#access</link>
-<guid isPermaLink="true">http://www.utoronto.ca/deeds/training/software-testing/?e=4</guid>
-<pubDate>Thu, 8 Dec 2011 12:00:00 GMT</pubDate>
-<description><![CDATA[ISTQB training evenings only course in Software Testing starting February 2012 (dates to be confirmed). Evenings only course held from 6 pm to 9 pm, Tuesday and Thursday. There will be 7 sessions plus 1 session for completing the ISTQB Foundation Level Certification.]]></description>
+<pubDate>Sun, 8 Jan 2012 12:00:00 GMT</pubDate>
+<description><![CDATA[Evenings only training in advanced Java. Ten sessions, two evenings per week.]]></description>
 </item>
 <item>
 <title>Create E-Commerce Websites with Drupal &amp; PHP</title>
