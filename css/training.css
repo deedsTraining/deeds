@@ -24,7 +24,7 @@ ul.mininav li.first { border-left:0 }
 #middle ul li { font-weight:bolder; font-size:1.2em }
 #middle h2 { background-color:#5bb9d6; color:#333; font-size:1.5em; font-weight:700; line-height:1.5em; margin:5px 20px 5px 0; text-align:center }
 #middle p { font-size:1em; line-height:1.1em; margin:10px 0 10px 10px; padding:2px 5px 0 0 }
-#middle table { background:transparent;border:5px solid #608080;color:#000;margin:0 10px;width:95% }
+#middle table { background:transparent;border:5px solid #608080;color:#000;margin:0 10px;width:95%;padding-bottom:1em }
 #middle th { font-size:1em; font-weight:700; padding:3px 2px }
 #middle td { color:#5bb9d6;padding:5px;text-align:left;border-top:1px solid #fff }
 #middle td.currency { text-align:right }
