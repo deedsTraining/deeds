@@ -24,6 +24,7 @@
 a.multi-line-button .title { font-size: 1em; color:white }
 a.multi-line-button .subtitle { font-size: .8em; color:white }
 ul.row li {display:inline}
+td.currency:before { content: "$" }
 </style>
 </head>
 <body id="android">
@@ -49,6 +50,7 @@ ul.row li {display:inline}
 <li><a href="training/contact/" title="Contact us">Need more information?</a></li>
 <!--<li><a href="training/android/register/" title="Register today">Register now, seats are limited</a></li>-->
 <li><a href="training/android/#topics" title="Topics">Course Topics</a></li>
+<li><a href="training/android/#schedule" title="Schedule">Course Schedule</a></li>
 <li><a href="training/android/#description" title="Description">Course Description</a></li>
 <li><a href="training/android/#requirements" title="Requiremnts">Course Requirements</a></li>
 <li><a href="training/android/#tuition" title="Tuition">Tuition Fees</a></li>
@@ -81,6 +83,11 @@ ul.row li {display:inline}
 <li>Touch Screen Programming.</li>
 <li>Sensors.</li>
 </ul>
+<h3 id="schedule">Course Schedule:</h3>
+<table id="future" title="Planned Courses">
+<tr><th>Duration</th><th>Time</th><th>Start Date</th><th class="currency">Fee</th></tr>
+<tr><td>10 Sessions</td><td>2 x 3 hour session per week, Evenings</td><td>TBA</td><td class="currency">1,595</td></tr>
+</table>
 <h3 id="description">Course Description:</h3>
 <ul class="list">
 <li><a href="http://maps.google.ca/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=The+DEEDS+Project,+Toronto,+Ontario&amp;sll=49.891235,-97.15369&amp;sspn=33.029007,70.488281&amp;ie=UTF8&amp;hq=The+DEEDS+Project,&amp;hnear=Toronto,+Toronto+Division,+Ontario&amp;ll=43.667127,-79.399567&amp;spn=0.043461,0.072956&amp;z=13&amp;iwloc=A" title="location">Our courses are held at the University of Toronto, St. George campus (downtown Toronto)</a></li>
@@ -95,7 +102,7 @@ ul.row li {display:inline}
 </ul>
 <h3 id="tuition">Tuition Fees:</h3>
 <ul class="list">
-<li>The tuition fees for this course will be $1,495.</li>
+<li>The tuition fees for this course are $1,495.</li>
 <li>Tuition Fee payments are by Certified Cheque or Money Order payable to the University of Toronto.</li>
 <li>Fees cover all materials and resources for the course. There are no additional charges.</li>
 <li>To withdraw from the course with a full refund, you must withdraw before the end of the first lecture of the course.</li>
@@ -108,15 +115,13 @@ ul.row li {display:inline}
 <li>This course DOES NOT qualify for OSAP.</li>
 </ul>
 <h3 id="disclaimer">Please Note:</h3>
-<ul class="list">
-<li>Course fees, dates, topics, and durations may change.</li>
-<li>Course content and policies are continuously under review and may also change.</li>
-<li>There is a maximum number of places available in this course. When the maximum enrollment is reached, new registrations will be placed on a waiting list.</li>  
-<li>There is a minimum number of places available in this course. If the minimum is not reached by the starting date, the course will be re-scheduled or cancelled. Fees paid will be refunded in full if you decide not to take a re-scheduled course.</li>
-<li>This page will always be the most up to date description of the course.</li>
-<li><a href="training/contact-form.html" title="Contact us">Contact us</a> or email us at <a href="mailto:deeds.training@gmail.com?subject=contact">deeds.training@gmail.com</a>, if you have any questions about this course.</li> 
-<li>Product names or company names are used for identification purposes only, and may be trademarks of their respective owners.</li>
-</ul>
+<p>Course fees, dates, topics, and durations may change.</p>
+<p>Course content and policies are continuously under review and may also change.</p>
+<p>There is a maximum number of places available in this course. When the maximum enrollment is reached, new registrations will be placed on a waiting list.</p>
+<p>There is a minimum number of places available in this course. If the minimum is not reached by the starting date, the course will be re-scheduled or cancelled. Fees paid will be refunded in full if you decide not to take a re-scheduled course.</p>
+<p>This page will always be the most up to date description of the course.</p>
+<p><a href="training/contact/" title="Contact us">Contact us</a> or email us at <a href="mailto:deeds.training@gmail.com?subject=contact">deeds.training@gmail.com</a>, if you have any questions about this course.</p>
+<p>Product names or company names are used for identification purposes only, and may be trademarks of their respective owners.</p>
 </div>
 </div>
 <div id="linkbox">
@@ -127,7 +132,6 @@ ul.row li {display:inline}
 <li><a href="training/php/" title="Internet Application Development with PHP, MySQL, and AJAX">Internet Application Development with PHP, MySQL, and AJAX</a></li>
 <li><a href="training/java/" title="Internet Application Development with Java EE, MySQL, and AJAX">Internet Application Development with Java&trade; EE, MySQL, and AJAX</a></li>
 <li><a href="training/drupal/day/" title="Create E-Commerce Websites with Drupal and PHP">Create E-Commerce Websites with Drupal and PHP | Days only course</a></li>
-<li><a href="training/drupal/evening/" title="Create E-Commerce Websites with Drupal">Create E-Commerce Websites with Drupal | Evenings only course</a></li>
 </ul>
 </div>
 <div id="linkbox-col2">
@@ -136,11 +140,13 @@ ul.row li {display:inline}
 <!--<li><a href="training/android/" title="Advanced Programming for the Android&trade; Platform Using Java&trade;">Advanced Programming for the Android&trade; Platform Using Java&trade;</a></li>-->
 <li><a href="training/advanced-java/" title="Advanced Topics in Java&trade;">Advanced Topics in Java&trade;</a></li>
 <li><a href="training/struts2/" title="Struts 2">Struts 2</a></li>
+<li><a href="training/drupal/evening/" title="Create E-Commerce Websites with Drupal">Create E-Commerce Websites with Drupal | Evenings only course</a></li>
 </ul>
 </div>
 <div class="clear"></div>
 <h6>About this course:</h6>
-<ul id="row1">
+<div id="linkbox-row1">
+<ul class="row">
 <!--<li><a href="training/android/register/" title="Register">Register</a></li>-->
 <li><a href="training/contact/" title="Contact us">Contact us for more information</a></li>
 <li><a href="training/android/#topics" title="Topics">Topics</a></li>
@@ -149,6 +155,7 @@ ul.row li {display:inline}
 <li><a href="training/android/#tuition" title="Tuition Fees">Tuition Fees</a></li>
 <li><a href="training/android/#funding" title="Funding Resources">Funding</a></li>
 </ul>
+</div>
 <h6>Share:</h6>
 <div class="addthis_toolbox addthis_default_style ">
 <a class="addthis_button_preferred_2"></a>
