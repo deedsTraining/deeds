@@ -1,6 +1,0 @@
-server_port: 4000
-destination: ./_site
-markdown: rdiscount
-auto: false
-lsi: false
-source: .  

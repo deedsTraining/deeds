@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<title>DEEDS Project | Software Testing</title>
+<title>ISTQB Foundation Level Software Testing</title>
 <base href="http://www.utoronto.ca/deeds/" />
 <link rel="shortcut icon" href="images/favicon.ico" />
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
 <link rel="canonical" href="http://www.utoronto.ca/deeds/training/software-testing" />
 <link href="css/reset.css" rel="stylesheet" type="text/css"/>
 <link href="css/training.css" rel="stylesheet" type="text/css"/>
-<link href="css/buttons.css" rel="stylesheet" type="text/css" />
+<link href="css/single-row-button.css" rel="stylesheet" type="text/css" />
 <link href="css/handheld.css" rel="stylesheet" type="text/css" media="handheld" />
 <link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
 <script type="text/javascript">
@@ -21,12 +21,13 @@
  _gaq.push(['_trackPageLoadTime']);
 </script>
 <style type="text/css">
-#button1, #button2 { width: 40% }
-a.multi-line-button .title { font-size: 14px;color:white }
-a.multi-line-button .subtitle { font-size: 10px;color:white }
 #middle h3.this { background-color:#5bb9d6; color:#333 }
 ul.row li { display:inline }
 td.currency:before { content:"$" }
+.size1of2 { width:60% }
+.size2of2 { width:40% }
+.column2 { float:right; text-align:right }
+.column2 a { padding:0 20px 0 0 }
 </style>  
 </head>
 <body id="testing">
@@ -35,43 +36,38 @@ td.currency:before { content:"$" }
 <h1><a href="." accesskey="1" title="The DEEDS Project">The DEEDS Project</a></h1>
 <h3><a href="http://www.utoronto.ca/">University of Toronto</a></h3>
 <ul class="mininav">
-<li><a href="http://res.deeds.utoronto.ca:49838/research/" title="DEEDS Research">Research</a></li>
-<li><a href="http://ethiopia.deeds.utoronto.ca/" title="Ethiopia">Ethiopia</a></li>
-<li><a href="http://www.utoronto.ca/cias/" title="Central and Inner Asia Studies">CIAS</a></li>
-<li><a href="http://scriptor.deeds.utoronto.ca:7777/d_mech/" title="Dater of Medieval English Charters">D+MECH</a></li>
-<li><a href="training/" title="Training Courses">Training</a></li>
 </ul>
 </div>
 <div id="middle">
 <div id="content">  
 <a href="training/software-testing/#access" accesskey="2"></a> 
-<h2 id="access">Software Testing</h2>
+<h2 id="access">ISTQB Foundation Level Software Testing</h2>
 <div class="multi-column-list">
 <div class="size1of2 column1">
-<ul>
-<!--<li><a href="training/software-testing/register/" title="Register Today">Register Today</a></li>-->
-<li><a href="training/software-testing/#topics" title="Course Topics">Course Topics</a></li>
-<li><a href="training/software-testing/#description" title="Course Description">Course Description</a></li> 
-<li><a href="training/software-testing/#schedule" title="Course Schedule">Course Schedule</a></li> 
-<li><a href="training/software-testing/#tuition" title="Tuition Fees">Tuition Fees</a></li> 
-<li><a href="training/contact/" title="Contact us">Do you need more information?</a></li>
-</ul>
+<h5>This course provides:</h5>  
+<p>The essential ideas, processes, tools and skills needed for testing professionals.</p> 
+<p>Coverage of the major test design techniques using demonstrations and exercises.</p> 
+<p>The methodology behind a successful testing program.</p>
 </div>
-<div class="size1of2 column2">
+<div class="size2of2 column2">
 <ul class="none">
-  <!--<a id="button1" class='multi-line-button orange' href="training/software-testing/register/"><span class='title'>Register Now</span><span class='subtitle'>Class size is limited</span></a></li>-->
+<li class="spaced"><a class="single-button" id="button1" href="training/software-testing/register/"><button class="red">Register today!</button></a></li>
+<li class="spaced"><a class="single-button" id="button2" href="training/contact/"><button class="blue">Contact us</button></a></li>
+</ul>
+<!--
+<ul class="none">
+  <li><a id="button1" class='multi-line-button red' href="training/software-testing/register/"><span class='title'>Register Now</span><span class='subtitle'>Class size is limited</span></a></li>
 <li><a id="button2" class="multi-line-button blue" href="training/contact/"><span class='title'>Contact us</span><span class='subtitle'>for more information</span></a></li>
 </ul>
-</div>
+-->
 </div>
 <div class="clear"></div>
-<h2 id="topics">Foundation Level Syllabus of the <a title="International Software Testing Qualifications Board" href="http://www.istqb.org/">ISTQB</a></h2>
-<p>This course provides test engineers and test managers with the essential ideas, processes, tools and skills they need in order to set themselves on a path to testing professionalism.</p>
-<p>The major test design techniques are covered with both lectures and exercises.</p> 
-<p>The methodology behind a successful testing program is provided.</p>
-<p>A wide range of issues, from those related to the individual tester to those related to the testing department as a whole are covered.</p>
-<p>The testing process is presented, both through theory and hands-on exercises that follow an example project, including the difficult tasks of tracking and presenting tests results.</p>
-<p>Creation of a test environment and test automation is also covered, along with system development life cycles and how they affect testing.</p>
+<p>Direction on the working relationship between an individual tester and the testing department as a whole.</p> 
+<p>Both theory and hands-on exercises that follow an example project, which includes the difficult tasks of tracking and presenting tests results.</p>
+<p>Creation of a test environment and test automation, along with system development life cycles and how they affect testing.</p>
+<p>Complete coverage of all the topics included in the ISTQB Foundation Level Software Testing Exam.</p>
+</div>
+<h2 id="topics">Course Topics:</a></h2>
 <h3 id="fundamentals" class="this">The Fundamentals of Testing</h3>
 <ul class="list">
 <li>Why is testing necessary?</li>
@@ -129,16 +125,15 @@ td.currency:before { content:"$" }
 <h3 id="schedule">Course Schedule</h3>
 <table id="software-testing" title="Software Testing">
 <tr><th></th><th>Duration</th><th>Starts</th><th>Ends</th><th class="currency">Fee</th></tr>
-<tr><td><a href="training/software-testing/register/">Evenings only Software Testing course</a></td><td>8 sessions</td><td>TBA</td><td>TBA<td class="currency">1,595</td></tr>
+<tr><td><a href="training/software-testing/register/">ISTQB Foundation Level Software Testing</a></td><td>8 sessions</td><td>Oct. 02, 2012</td><td>Oct 25, 2012<td class="currency">1,595</td></tr>
 </table>
 <ul class="list">
 <li>Courses are twice per week, on Thursdays and Tuesdays, in the evening, from 6pm to 9pm.</li>
 <li>The final session of the course is completing the <a title="International Software Testing Qualifications Board" href="http://www.istqb.org/">ISTQB</a> Certified Tester Foundation Level Exam. Date and time to be confirmed. The Certified Tester Foundation Level exam is one hour.</li>
-<li>For more information <a href="training/contact" title="Contact us">contact us</a>.</li>
 </ul>  
 <h3 id="tuition">Tuition Fees:</h3>
 <ul class="list">
-<li>The tuition fee is $1,595.</li>
+<li>Tuition fees are $1,595, inclusive.</li>
 <li>Refunds for withdrawal from a course are pro-rated. Any fees paid on your behalf are not refundable. Any materials provided cannot be returned for credit.</li> 
 <li>Fees are tax deductible, a Tuition and Education Amounts Certificate will be issued after successful completion of this course.</li>
 <li>This course DOES NOT qualify for OSAP.</li>
@@ -158,31 +153,29 @@ td.currency:before { content:"$" }
 </div>
 </div>
 <div id="linkbox">
-<h6>Courses:</h6>
+<h6>More information:</h6>
 <div id="linkbox-col1">
 <ul>
-<li><a href="training/php/" title="Internet Application Development with PHP, MySQL, and AJAX">Internet Application Development with PHP, MySQL, and AJAX</a></li>
-<li><a href="training/java/" title="Internet Application Development with Java EE, MySQL, and AJAX">Internet Application Development with Java&trade; EE, MySQL, and AJAX</a></li>
-<li><a href="training/drupal/day/" title="Create E-Commerce Websites with Drupal and PHP">Create E-Commerce Websites with Drupal and PHP | Days only course</a></li>
-<li><a href="training/drupal/evening/" title="Create E-Commerce Websites with Drupal and PHP">Create E-Commerce Websites with Drupal and PHP | Evenings only course</a></li>
+<li><a href="training/fees/" title="Fee Payments">More information about Fee Payments</a></li>
+<li><a href="training/refund/" title="Refund Policy">Our Refund Policy</a></li>
 </ul>
 </div>
 <div id="linkbox-col2">
 <ul>
-<li><a href="training/mobile/" title="Mobile Development using Android&trade; and Java&trade;">Mobile Development using Android&trade; and Java&trade;</a></li>
-<li><a href="training/android/" title="Advanced Programming for the Android&trade; Platform Using Java&trade;">Advanced Programming for the Android&trade; Platform Using Java&trade;</a></li>
-<li><a href="training/advanced-java/" title="Advanced Topics in Java&trade;">Advanced Topics in Java&trade;</a></li>
-<li><a href="training/struts2/" title="Struts 2">Struts 2</a></li>
+<li><a href="training/privacy/" title="Privacy Policy">Our Privacy Policy</a></li>
+<li>Join our <a href="training/contact/" title="Mailing List">mailing list</a>, and we will let you know when courses are open for registration</li>
 </ul>
 </div>
 <div class="clear"></div>
 <h6>About this course:</h6>
 <div id="linkbox-row1">
 <ul class="row">
-<li><a href="training/contact/" title="Contact Us">Contact us, for more information</a></li>
-<li><a href="training/software-testing/#topics" title="Topics">Course Topics</a></li>
-<li><a href="training/software-testing/#schedule" title="Schedule">Course Schedule</a></li>
-<li><a href="training/software-testing/#tuition" title="Tuition Fees">Tuition Fees</a></li>
+<li><a href="training/software-testing/register/" title="Register Today">Register Today</a></li>
+<li><a href="training/software-testing/#topics" title="Course Topics">Course Topics</a></li>
+<li><a href="training/software-testing/#description" title="Course Description">Course Description</a></li> 
+<li><a href="training/software-testing/#schedule" title="Course Schedule">Course Schedule</a></li> 
+<li><a href="training/software-testing/#tuition" title="Tuition Fees">Tuition Fees</a></li> 
+<li><a href="training/contact/" title="Contact us">Do you need more information?</a></li>
 </ul>
 </div>
 <h6>Share:</h6>

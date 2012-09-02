@@ -1,5 +1,5 @@
-input.btTxt { background-color:#ffa500;  border:1px solid #d56d46; ;  width:auto;  overflow:visible; color:#ffffff; padding:4px 15px 4px 15px; font-family:"Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif }  
-input.btTxt:hover { background-color:#ff4500; border:1px solid #C9C9C9; width:auto; overflow:visible }
+input.btTxt { background-color:#ffa500;  border:1px solid #d56d46; width:30%;  overflow:visible; color:#ffffff; padding:4px 15px 4px 15px; font-family:"Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif; font-weight:bold }  
+input.btTxt:hover { background-color:#ff4500; border:1px solid #C9C9C9; width:30%; overflow:visible }
 
 /*
 input.text, input.search, textarea.textarea { -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px }
