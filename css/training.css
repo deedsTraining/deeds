@@ -30,7 +30,7 @@ ul.mininav li.first { border-left:0 }
 #middle td.currency { text-align:right }
 #middle td.last { border-top:2px solid #608080; color:#000 }
 #content { float:left; margin:12px; width:749px }
-div#linkbox { background-color:lightgray; border:10px solid lightgray; float:left; font-size:.9em; margin:0 20px 20px 50px; width:85% }
+div#linkbox { background-color:silver; border:10px solid silver; float:left; font-size:.9em; margin:0 20px 20px 50px; width:85% }
 div#linkbox-col1 { width:48%; float:left; overflow:hidden }
 div#linkbox-col2 { width:48%; float:right; overflow:hidden }
 div#linkbox li { padding:1% 0 }
