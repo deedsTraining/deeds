@@ -5,9 +5,9 @@
 <title>DEEDS Project | Training Courses</title>
 <link>http://www.utoronto.ca/deeds/training/</link>
 <description>Professional Training</description>
-<lastBuildDate>Fri, 2 Nov 2012 12:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 10 Jan 2013 12:00:00 GMT</lastBuildDate>
 <language>en-us</language>
-<copyright>Copyright 2012, The DEEDS Project</copyright>
+<copyright>Copyright 2013, The DEEDS Project</copyright>
 <managingEditor>deeds.training@gmail.com (deedsTraining)</managingEditor>
 <image>
 <title>DEEDS Project | Training</title>
@@ -16,11 +16,11 @@
 </image>
 <atom:link href="http://www.utoronto.ca/deeds/training/announcements.xml" rel="self" type="application/rss+xml" />
 <item>
-<title>Software Testing (Software QA) Course (November 2012)</title>
+<title>Software Testing (Software QA) Course (March 2013)</title>
 <link>http://www.utoronto.ca/deeds/training/software-testing/#access</link>
 <guid isPermaLink="true">http://www.utoronto.ca/deeds/training/software-testing/?e=4</guid>
-<pubDate>Fri, 2 Nov 2012 12:00:00 GMT</pubDate>
-<description><![CDATA[ISTQB Foundation Level Software Testing training course. Evenings sessions. Software Testing (QA) course. Evenings from 6 pm to 9 pm, Tuesdays and Thursdays. 8 sessions. Final session is completing the ISTQB Software Testing Foundation Level Certification exam. Course starts Jan. 8, 2013.]]></description>
+<pubDate>Thu, 10 Jan 2013 12:00:00 GMT</pubDate>
+<description><![CDATA[ISTQB Foundation Level Software Testing training course. Evenings sessions. Software Testing (QA) course. Evenings from 6 pm to 9 pm, Tuesdays and Thursdays. 8 sessions. Final session is completing the ISTQB Software Testing Foundation Level Certification exam. Course starts Mar. 5, 2013.]]></description>
 </item>
 </channel>
 </rss>
